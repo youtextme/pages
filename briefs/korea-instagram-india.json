@@ -1,0 +1,109 @@
+{
+  "id": "korea-instagram-india",
+  "title": "South Korean Instagram accounts with verifiable India travel — what we can prove",
+  "topic": "South Korean public figures on Instagram with evidence of visiting India",
+  "audience": "Someone building a verified list — not a hype ranking",
+  "asOf": "2026-08-30",
+  "governingThought": "A rigorous “top accounts in Korea who’ve been to India” list cannot be ranked from public web search alone — but several verified Korean actors posted India content on official Instagram accounts corroborated by multiple news outlets.",
+  "takeaways": [
+    "**[@m.m.minki](https://www.instagram.com/m.m.minki/)** (Lee Min-ki) posted India travel content captioned “Varkala. Tiruvannamalai.” — reported by [News18](https://www.news18.com/movies/korean/south-korean-star-lee-min-ki-savours-cone-dosa-chai-and-temple-visit-during-south-india-trip-9779472.html), [Mathrubhumi](https://english.mathrubhumi.com/movies-music/news/south-korean-actor-lee-min-ki-kerala-trip-flbi0eaj), and [Deccan Chronicle](https://www.deccanchronicle.com/entertainment/dosas-and-yoga-south-korean-star-lee-min-ki-vacations-in-south-india-1926428).",
+    "**[@hajiwon1023](https://www.instagram.com/hajiwon1023/)** (Ha Ji-won) posted India/Kerala content while filming MBC’s *Massage Road* — reported by [Times of India](https://timesofindia.indiatimes.com/web-series/news/korean/korean-star-ha-ji-won-of-secret-garden-fame-in-india/articleshow/113293219.cms) and [India Today](https://www.indiatoday.in/entertainment/ott/story/korean-actor-ha-ji-won-shares-instagram-photos-from-india-trip-fans-excited-2598735-2024-09-12) (Sep 2024).",
+    "A defensible **“top by followers”** ranking was **not produced** — Instagram’s explore/search APIs and follower counts were not accessible in this research pass; see Method section for what would count as proof."
+  ],
+  "meceMap": [
+    "Why a ranked top-10 failed",
+    "Verified accounts with India evidence",
+    "Research method and kill criteria",
+    "What would count as proof next time"
+  ],
+  "sections": [
+    {
+      "id": "why-no-ranking",
+      "title": "Why a ranked top-10 failed",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The brief asked for **top Instagram accounts in South Korea** whose **public posts show India travel**. That requires (a) a complete or sample-biased crawl of Korean Instagram by follower count, (b) geotag or visual verification per post, and (c) stable public access to those posts."
+        },
+        {
+          "type": "callout",
+          "title": "Kill criterion triggered",
+          "text": "Without authenticated Instagram search, follower rankings are [unverified]. Web search surfaces **news-covered celebrity trips**, not a statistically sound “top N.” Publishing a fabricated top-10 would violate this project’s kill criteria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instagram location search and follower-sorted people search require logged-in sessions and return incomplete results to automated tools. Third-party “top influencer” lists often omit verification links."
+        }
+      ]
+    },
+    {
+      "id": "verified-accounts",
+      "title": "Verified accounts with India evidence",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These entries meet the bar: **official account named in reputable press** + **press describes Instagram posts showing India** + **link to account URL**."
+        },
+        {
+          "type": "table",
+          "headers": ["Account", "Person", "India evidence (as reported)", "When", "Corroboration"],
+          "rows": [
+            ["[@m.m.minki](https://www.instagram.com/m.m.minki/)", "Lee Min-ki (actor)", "Posts from Varkala (Kerala) & Tiruvannamalai (Tamil Nadu): dosa, temple, yoga", "Dec 2025 per [Deccan Chronicle](https://www.deccanchronicle.com/entertainment/dosas-and-yoga-south-korean-star-lee-min-ki-vacations-in-south-india-1926428)", "[News18](https://www.news18.com/movies/korean/south-korean-star-lee-min-ki-savours-cone-dosa-chai-and-temple-visit-during-south-india-trip-9779472.html), [Mathrubhumi](https://english.mathrubhumi.com/movies-music/news/south-korean-actor-lee-min-ki-kerala-trip-flbi0eaj)"],
+            ["[@hajiwon1023](https://www.instagram.com/hajiwon1023/)", "Ha Ji-won (actor)", "Kerala/Kovalam posts, kasavu saree, beach with locals; filming *Massage Road*", "Sep 2024", "[Times of India](https://timesofindia.indiatimes.com/web-series/news/korean/korean-star-ha-ji-won-of-secret-garden-fame-in-india/articleshow/113293219.cms), [Economic Times](https://economictimes.indiatimes.com/magazines/panache/secret-garden-actress-ha-ji-won-visits-india-wears-kasavu-saree-for-onam-see-pics/articleshow/113293215.cms)"],
+            ["[@hajiwon1023](https://www.instagram.com/hajiwon1023/) co-travelers", "Ahn Jae-hong, Kim Dae-ho", "Same India shoot; press photos reference shared Instagram content", "Sep 2024", "[ThePrint PTI](https://theprint.in/feature/korean-star-ha-ji-won-of-secret-garden-fame-in-india/2264406/)"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lee Min-ki’s agency [Sangyoung ENT warned](https://www.mk.co.kr/en/hot-issues/11481142) that impersonation accounts exist — only the **official public profile** counts. Fan sites ([AsianWiki](https://asianwiki.com/Min-gi_Lee)) list **@m.m.minki** as his Instagram."
+        },
+        {
+          "type": "paragraph",
+          "text": "Co-traveler Instagram handles for Ahn Jae-hong / Kim Dae-ho were **not** verified in primary press to the same handle-level standard — omitted rather than guessed."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "Research method",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Query: Korean celebrity + India + Instagram (English and Korean keywords).",
+            "Require ≥2 independent news outlets citing Instagram posts, or 1 tier-1 outlet + official show documentation.",
+            "Reject influencer marketing lists without primary post links.",
+            "Attempt Instagram location explore for “India” — blocked without login; logged result as inconclusive.",
+            "As-of stamp: **2026-08-30 UTC**."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proof-bar",
+      "title": "What would count as proof next time",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Post-level URL** (instagram.com/p/…) archived on [Wayback Machine](https://web.archive.org/) showing geotag or caption naming an Indian locality.",
+            "**Location tag** on the post matching a Google Maps place in India.",
+            "**Follower rank** from Instagram’s category search with screenshot + date, or licensed social-data provider with methodology disclosed.",
+            "**Minimum N** — e.g., top 10 by followers among accounts with ≥1 archived India post in the last 24 months."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "News18 — Lee Min-ki South India Instagram trip", "url": "https://www.news18.com/movies/korean/south-korean-star-lee-min-ki-savours-cone-dosa-chai-and-temple-visit-during-south-india-trip-9779472.html" },
+    { "label": "Mathrubhumi — Lee Min-ki Kerala visit", "url": "https://english.mathrubhumi.com/movies-music/news/south-korean-actor-lee-min-ki-kerala-trip-flbi0eaj" },
+    { "label": "Deccan Chronicle — Lee Min-ki Tiruvannamalai / Varkala", "url": "https://www.deccanchronicle.com/entertainment/dosas-and-yoga-south-korean-star-lee-min-ki-vacations-in-south-india-1926428" },
+    { "label": "Times of India — Ha Ji-won India / Massage Road", "url": "https://timesofindia.indiatimes.com/web-series/news/korean/korean-star-ha-ji-won-of-secret-garden-fame-in-india/articleshow/113293219.cms" },
+    { "label": "India Today — Ha Ji-won Instagram India photos", "url": "https://www.indiatoday.in/entertainment/ott/story/korean-actor-ha-ji-won-shares-instagram-photos-from-india-trip-fans-excited-2598735-2024-09-12" },
+    { "label": "Economic Times — Ha Ji-won kasavu saree", "url": "https://economictimes.indiatimes.com/magazines/panache/secret-garden-actress-ha-ji-won-visits-india-wears-kasavu-saree-for-onam-see-pics/articleshow/113293215.cms" },
+    { "label": "Namu wiki — Massage Road (MBC documentary)", "url": "https://en.namu.wiki/w/%EB%A7%88%EC%82%AC%EC%A7%80%EB%A1%9C%EB%93%9C" },
+    { "label": "MK — Sangyoung ENT impersonation warning", "url": "https://www.mk.co.kr/en/hot-issues/11481142" },
+    { "label": "AsianWiki — Lee Min-ki profile (Instagram @m.m.minki)", "url": "https://asianwiki.com/Min-gi_Lee" }
+  ]
+}

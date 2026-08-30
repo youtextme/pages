@@ -1,0 +1,96 @@
+{
+  "id": "helio-city-instagram",
+  "title": "Helio City (헬리오시티) Instagram: location-tagged accounts — method & limits",
+  "topic": "Instagram accounts posting from Helio City, Songpa, Seoul",
+  "audience": "Someone looking for credible local connectors — not a fabricated influencer list",
+  "asOf": "2026-08-30",
+  "governingThought": "Helio City has fragmented Instagram location tags and no authenticated ranking API — this brief documents the search method and stops short of inventing a “top people” list.",
+  "takeaways": [
+    "Helio City (헬리오시티) is a **9,510-unit** rebuilt apartment complex in **Songpa-gu, Garak-dong** ([Wikipedia KO](https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A6%AC%EC%98%A4%EC%8B%9C%ED%8B%B0)) — completed **Dec 2018**.",
+    "Instagram shows multiple location pages (e.g. [“Helios city” explore stub](https://www.instagram.com/explore/locations/11253556/helios-city/)) — names vary (Helios vs Helio), and explore pages require login for full post lists.",
+    "**No verified “top accounts” list** is published here — automated search could not confirm individual handles with location-tagged video posts without inventing data."
+  ],
+  "meceMap": [
+    "What Helio City is (ground truth)",
+    "What Instagram location search returned",
+    "Method used and where it failed",
+    "What evidence would justify a future shortlist"
+  ],
+  "sections": [
+    {
+      "id": "ground-truth",
+      "title": "What Helio City is",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**헬리오시티 (Helio City / Heliocity)** is an 84-building residential complex in **Seoul Songpa-gu Garak-dong**, built 2015–2018 on the former Garak Shiyoung apartments. Wikipedia records **9,510 households**, up to **35 floors** ([Korean Wikipedia](https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A6%AC%EC%98%A4%EC%8B%9C%ED%8B%B0))."
+        },
+        {
+          "type": "paragraph",
+          "text": "Address references in commerce sites use **Songpa-daero 345** ([Helio City real-estate listing example](https://heliocity.me/mobile/view/10325)). This is a residential mega-complex — most “connectors worth knowing” are hyperlocal creators, agents, or community accounts, not national celebrities."
+        }
+      ]
+    },
+    {
+      "id": "instagram-findings",
+      "title": "What Instagram location search returned",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Public web fetch of [Instagram location explore for “Helios city” (ID 11253556)](https://www.instagram.com/explore/locations/11253556/helios-city/) did **not** return readable post lists or usernames — Instagram serves login walls / obfuscated payloads to unauthenticated clients."
+        },
+        {
+          "type": "callout",
+          "title": "Kill criterion: no invented handles",
+          "text": "Third-party influencer databases sometimes list Korean apartment-community accounts without primary links. None met our verification bar (public post URL + location tag + video content visible without login). **Zero handles are ranked below.**"
+        },
+        {
+          "type": "paragraph",
+          "text": "Korean users may tag **헬리오시티**, **Helio City**, or romanization variants **Helios city** — location databases merge inconsistently. Searching hashtags #헬리오시티 or #heliocity on Instagram (requires app login) is the practical next step."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "title": "Method used",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Confirm complex identity via [Wikipedia](https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A6%AC%EC%98%A4%EC%8B%9C%ED%8B%B0) and address listings.",
+            "Attempt Instagram explore URL fetch for known location ID 11253556 — **failed to extract posts**.",
+            "Web search Korean/English queries: 헬리오시티 인스타, Helio City Instagram location — surfaced location stub only, no ranked creators with verified links.",
+            "Reject unverifiable “top 10 apartment influencers” listicles.",
+            "As-of: **2026-08-30 UTC**."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future-proof",
+      "title": "What would count as proof for a future shortlist",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Public Instagram profile URL** with ≥1 **video** post geotagged **Helio City / 헬리오시티** (screenshot + Wayback archive).",
+            "**Location tag** matching [Instagram place ID](https://www.instagram.com/explore/locations/11253556/helios-city/) or newly created equivalent.",
+            "**Engagement or follower count** captured with date stamp — ranking requires disclosed sort key (followers vs posting frequency vs local business relevance).",
+            "**Category filter:** resident vlogger vs real-estate agent vs commercial tenant — separate lists, not one blended “top people.”",
+            "For offline connectors (property, community board), prefer **verified business registrations** over Instagram fame."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Suggested manual workflow: In Instagram app → Search → Places → “헬리오시티” → filter **Reels** → export first 20 accounts with post URLs → archive each URL on [Wayback Machine](https://web.archive.org/) → then rank with stated metric."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "Wikipedia (KO) — 송파 헬리오시티", "url": "https://ko.wikipedia.org/wiki/%ED%97%AC%EB%A6%AC%EC%98%A4%EC%8B%9C%ED%8B%B0" },
+    { "label": "Instagram — Helios city location explore (login required for posts)", "url": "https://www.instagram.com/explore/locations/11253556/helios-city/" },
+    { "label": "Helio City address reference (real-estate listing)", "url": "https://heliocity.me/mobile/view/10325" },
+    { "label": "Wayback Machine — for future post archiving", "url": "https://web.archive.org/" }
+  ]
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Einstein’s relativity: zero to hero (Galileo → GPS) · Research Briefings</title>
+  <meta name="description" content="Relativity is the demand that the laws of physics look the same in every inertial frame while light’s speed in vacuum stays fixed — from that single tension, time dilation, E = mc², curved spacetime, and GPS corrections all follow.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/base.css">
+  <style>
+    :root {
+      --bg: #f8f7f4;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #4a4a4a;
+      --accent: #1e3a5f;
+      --border: #d4d0c8;
+      --highlight: #eef2f7;
+      --font-heading: "Libre Baskerville", Georgia, serif;
+      --font-body: "Source Sans 3", system-ui, sans-serif;
+      --font-mono: "IBM Plex Mono", monospace;
+    }
+  </style>
+</head>
+<body class="brief-page taste-textbook-calm hero-chapter density-spacious">
+  <header class="site-header">
+    <a class="back" href="../index.html">← All briefings</a>
+  </header>
+  <main>
+    <article class="brief">
+      <header class="scan-layer">
+        <p class="eyebrow">Research briefing · as of August 30, 2026 UTC</p>
+        <h1>Einstein’s relativity: zero to hero (Galileo → GPS)</h1>
+        <p class="governing-thought">Relativity is the demand that the laws of physics look the same in every inertial frame while light’s speed in vacuum stays fixed — from that single tension, time dilation, E = mc², curved spacetime, and GPS corrections all follow.</p>
+        <div class="scan-meta">
+          <div><strong>For</strong> A smart adult who never got it</div>
+          <div><strong>Topic</strong> Special and general relativity for curious adults</div>
+        </div>
+        <ol class="takeaways"><li><span class="takeaway-num">1</span><span><strong>Special relativity (1905):</strong> Inertial frames + constant <strong>c</strong> ⇒ moving clocks run slow and simultaneity is frame-dependent (<a href="https://onlinelibrary.wiley.com/doi/10.1002/andp.19053221004" rel="noopener noreferrer">Einstein 1905</a>, <a href="https://plato.stanford.edu/entries/spacetime-convensimul/" rel="noopener noreferrer">Stanford SEP</a>).</span></li><li><span class="takeaway-num">2</span><span><strong>General relativity (1915):</strong> Gravity is geometry — mass-energy curves spacetime; free fall is geodesic motion (<a href="https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?pn=3&amp;tocMode=none&amp;url=%2Fpermanent%2Fecho%2Feinstein%2Fsitzungsberichte%2F6E3MAXK4%2Findex.meta" rel="noopener noreferrer">Einstein Nov 25 1915 paper scan</a>).</span></li><li><span class="takeaway-num">3</span><span><strong>GPS needs both:</strong> Orbiting clocks gain ~<strong>45 µs/day</strong> (gravity) and lose ~<strong>7 µs/day</strong> (speed) ⇒ net ~<strong>+38 µs/day</strong> programmed in, or positions drift kilometers (<a href="https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1385.pdf" rel="noopener noreferrer">NIST TN 1385</a>).</span></li></ol>
+        <nav class="mece-map" aria-label="Brief map">
+          <strong>Rest of this page</strong>
+          <ol><li>Inertial frames and Galilean intuition</li><li>Special relativity: c, time dilation, E = mc²</li><li>General relativity: equivalence and curvature</li><li>What GPS actually does with relativity</li></ol>
+        </nav>
+        <p class="as-of-stamp">Verified snapshot: August 30, 2026 UTC</p>
+      </header>
+      <div class="deep-dive">
+        <section class="deep-section" id="inertial-frames">
+    <h2>Inertial frames and Galilean intuition</h2>
+    <p>An <strong>inertial frame</strong> is a reference frame with no net acceleration — a train at constant velocity counts; a spinning carousel does not. Galileo noted that below decks you cannot tell steady motion from rest: physics experiments give the same results (<a href="https://plato.stanford.edu/entries/spacetime-convensimul/" rel="noopener noreferrer">Stanford SEP on simultaneity conventions</a> discusses how Einstein sharpened this).</p>
+<p>Classically, velocities add: if you walk 5 km/h inside a train doing 100 km/h, ground observers see 105 km/h. Time and length were assumed absolute — every clock agrees on “now.”</p>
+<aside class="callout"><strong>Where classical physics breaks</strong><p>Maxwell’s equations predict a fixed speed <strong>c ≈ 299,792 km/s</strong> for light in vacuum. If you chase a light beam, classical velocity addition says you should see a slower beam — experiments (and Einstein’s 1905 postulate) say you do not.</p></aside>
+  </section>
+<section class="deep-section" id="special">
+    <h2>Special relativity: c, time dilation, E = mc²</h2>
+    <p>Einstein’s 1905 paper <a href="https://onlinelibrary.wiley.com/doi/10.1002/andp.19053221004" rel="noopener noreferrer">*Zur Elektrodynamik bewegter Körper*</a> starts from two postulates: (1) physics laws are the same in all inertial frames; (2) <strong>c</strong> is the same in all inertial frames, independent of the source’s motion.</p>
+<p><strong>Symbols you will see:</strong> <strong>c</strong> = speed of light in vacuum; <strong>v</strong> = relative speed between frames; <strong>t</strong> = time in the “rest” frame; <strong>t′</strong> = time in the moving frame. The <a href="https://plato.stanford.edu/entries/spacetime-convensimul/" rel="noopener noreferrer">Lorentz factor</a> γ = 1/√(1 − v²/c²) converts between frames.</p>
+<p><strong>Time dilation:</strong> A clock moving at speed <strong>v</strong> relative to you ticks slower by factor γ. Proper time Δτ on the moving clock relates to your elapsed time Δt via Δt = γ Δτ. At everyday speeds γ ≈ 1; at GPS satellite speeds the effect is small but measurable.</p>
+<p><strong>E = mc²:</strong> Einstein’s follow-on 1905 note showed mass and energy are equivalent — <strong>E</strong> is energy, <strong>m</strong> is rest mass, <strong>c</strong> links the units. A small mass defect converts to enormous energy because <strong>c²</strong> is huge. This is not “everything is light”; it is a statement about how much energy is stored in mass at rest.</p>
+<p><strong>Simultaneity:</strong> Einstein showed there is no absolute “now” for separated events — synchronizing distant clocks requires a convention (e.g., light-signal midpoint rule). That is why special relativity pairs space and time into <strong>spacetime</strong>.</p>
+  </section>
+<section class="deep-section" id="general">
+    <h2>General relativity: equivalence and curvature</h2>
+    <p>By 1907 Einstein had the <strong>equivalence principle</strong>: in a small enough region, gravitational acceleration is indistinguishable from acceleration of your reference frame (elevator thought experiment). Gravity is not a force in the Newtonian sense acting at a distance — it is geometry.</p>
+<p>In November 1915 Einstein presented the final <strong>field equations</strong> to the Prussian Academy. The decisive communication <a href="https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?pn=3&amp;tocMode=none&amp;url=%2Fpermanent%2Fecho%2Feinstein%2Fsitzungsberichte%2F6E3MAXK4%2Findex.meta" rel="noopener noreferrer">*Die Feldgleichungen der Gravitation*</a> (25 Nov 1915) completed the theory. Mass-energy tells spacetime how to curve; curved spacetime tells matter how to move.</p>
+<p><strong>Curvature in plain language:</strong> Parallel lines (geodesics) can converge — that is what we feel as gravity. The 1915 papers recovered the anomalous <strong>Mercury perihelion precession</strong>, which Newtonian gravity could not fully explain.</p>
+<p>For deeper reading without hype: <a href="https://plato.stanford.edu/entries/spacetime-convensimul/" rel="noopener noreferrer">Stanford Encyclopedia — Simultaneity and Conventionality</a>, <a href="https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?pn=3&amp;tocMode=none&amp;url=%2Fpermanent%2Fecho%2Feinstein%2Fsitzungsberichte%2F6E3MAXK4%2Findex.meta" rel="noopener noreferrer">Einstein Papers Project / MPIWG scans</a>, and undergraduate texts cited in <a href="https://link.springer.com/book/10.1007/978-3-030-97955-3" rel="noopener noreferrer">Springer’s historical volume on the November 1915 papers</a>.</p>
+  </section>
+<section class="deep-section" id="gps">
+    <h2>What GPS actually does with relativity</h2>
+    <p>GPS satellites carry atomic clocks. Engineers must correct those clocks or range measurements drift kilometers per day. <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1385.pdf" rel="noopener noreferrer">NIST Technical Note 1385</a> walks through the corrections tied to the <strong>constancy of c</strong> and coordinate time definitions.</p>
+<div class="table-wrap"><table><thead><tr><th>Effect</th><th>Physical cause</th><th>Approx. daily clock shift (satellite vs ground)</th><th>Relativity type</th></tr></thead><tbody><tr><td>Gravitational time dilation</td><td>Weaker gravity higher up ⇒ clocks run faster</td><td>~+45 µs/day</td><td>General (<a href="https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1385.pdf" rel="noopener noreferrer">NIST TN 1385</a>)</td></tr><tr><td>Kinematic time dilation</td><td>Satellite speed ⇒ moving clocks run slower</td><td>~−7 µs/day</td><td>Special (<a href="https://quarknet.org/sites/default/files/Relativity%20Einstein%20GPS.pdf" rel="noopener noreferrer">QuarkNet GPS primer PDF</a>)</td></tr><tr><td>Net programmed offset</td><td>Combined SR + GR correction baked into clock rate</td><td>~+38 µs/day net</td><td>Both</td></tr></tbody></table></div>
+<p>Receivers solve for position by comparing signal travel times from multiple satellites. If satellite clock rates ignored relativity, <strong>c</strong>-based ranging would systematically wrong — the <a href="https://quarknet.org/sites/default/files/Relativity%20Einstein%20GPS.pdf" rel="noopener noreferrer">QuarkNet relativity+GPS handout</a> estimates order <strong>~11 km/day</strong> position error without corrections (order-of-magnitude teaching figure; operational systems include additional effects).</p>
+<p>GPS is engineering proof that relativity is not merely philosophical — it is a required correction in the <a href="https://www.gps.gov/technical/" rel="noopener noreferrer">Interface Control Document</a> time scale maintained by US Space Force / NIST traceability.</p>
+  </section>
+      </div>
+      <footer class="sources">
+        <h2>Sources</h2>
+        <ol><li><a href="https://onlinelibrary.wiley.com/doi/10.1002/andp.19053221004" rel="noopener noreferrer">Einstein (1905) — Zur Elektrodynamik bewegter Körper</a></li><li><a href="https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuView?pn=3&amp;tocMode=none&amp;url=%2Fpermanent%2Fecho%2Feinstein%2Fsitzungsberichte%2F6E3MAXK4%2Findex.meta" rel="noopener noreferrer">Einstein (1915) — Die Feldgleichungen der Gravitation (scan)</a></li><li><a href="https://plato.stanford.edu/entries/spacetime-convensimul/" rel="noopener noreferrer">Stanford Encyclopedia — Conventionality of Simultaneity</a></li><li><a href="https://nvlpubs.nist.gov/nistpubs/Legacy/TN/nbstechnicalnote1385.pdf" rel="noopener noreferrer">NIST TN 1385 — GPS receivers and relativity</a></li><li><a href="https://quarknet.org/sites/default/files/Relativity%20Einstein%20GPS.pdf" rel="noopener noreferrer">QuarkNet — Relativity and GPS (educational PDF)</a></li><li><a href="https://link.springer.com/book/10.1007/978-3-030-97955-3" rel="noopener noreferrer">Springer — How Einstein Found His Field Equations</a></li><li><a href="https://www.gps.gov/technical/" rel="noopener noreferrer">GPS.gov — technical documentation hub</a></li></ol>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
