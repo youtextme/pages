@@ -1,0 +1,82 @@
+{
+  "asOf": "2026-08-30",
+  "audience": "Girish and the Buzz research desk",
+  "governingThought": "### AI Research: The Path to the Frontier",
+  "id": "tell-me-what-does-an-ai-researcher-do-and-how-ca-68671",
+  "meceMap": [
+    "Brief",
+    "Section 2",
+    "Section 3",
+    "Section 4",
+    "Section 5"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Brief",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "### AI Research: The Path to the Frontier"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Section 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Core Thesis:** AI research is an empirical, mathematical discipline, not a product management function. To transition, you must shift from shipping features to deriving novel architectures."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Section 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**The Role:** Researchers formulate hypotheses, design mathematical frameworks, and run experiments to push state-of-the-art performance."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Section 4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**The Roadmap:**\n1.  **Math Foundation:** Master multivariable calculus, linear algebra, and probability.\n2.  **Implementation:** Reproduce three seminal papers from [research.google/pubs/](https://research.google/pubs/).\n3.  **Validation:** Document findings on Hugging Face.\n4.  **Contribution:** Publish novel experiments on arXiv."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Section 5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**More:** [huggingface.co/papers](https://huggingface.co/papers)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "https://research.google/pubs/",
+      "url": "https://research.google/pubs/"
+    },
+    {
+      "label": "https://huggingface.co/papers",
+      "url": "https://huggingface.co/papers"
+    }
+  ],
+  "takeaways": [
+    "### AI Research: The Path to the Frontier",
+    "**Core Thesis:** AI research is an empirical, mathematical discipline, not a product management function. To transition, you must shift from shipping features to deriving novel architectures.",
+    "**The Role:** Researchers formulate hypotheses, design mathematical frameworks, and run experiments to push state-of-the-art performance."
+  ],
+  "title": "Tell me, what does an AI researcher do? And how can I become one? I'm a technica",
+  "topic": "Tell me, what does an AI researcher do? And how can I become one? I'm a technical program manager, I do project management. I understand technical products launching products and things like that. I do not have a ph. Di am not really masters in science or anything, but I want to become an AI. Resear"
+}
