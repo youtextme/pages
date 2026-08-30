@@ -47,7 +47,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "**The Roadmap:**\n1.  **Math Foundation:** Master multivariable calculus, linear algebra, and probability.\n2.  **Implementation:** Reproduce three seminal papers from [research.google/pubs/](https://research.google/pubs/).\n3.  **Validation:** Document findings on Hugging Face.\n4.  **Contribution:** Publish novel experiments on arXiv."
+          "text": "**The Roadmap:**\n1. **Math Foundation:** Master multivariable calculus, linear algebra, and probability.\n2. **Implementation:** Reproduce three seminal papers from [research.google/pubs/](https://research.google/pubs/).\n3. **Validation:** Document findings on Hugging Face.\n4. **Contribution:** Publish novel experiments on arXiv."
         }
       ]
     },
