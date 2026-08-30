@@ -30,6 +30,15 @@ async function build() {
 
   await writeFile(join(docsDir, 'index.html'), renderIndexPage(briefs), 'utf8');
 
+  // Shipped /u/<slug>/ 404s: copy repo u/ into the Pages artifact so GET can 200.
+  const uSrc = join(root, 'u');
+  try {
+    await cp(uSrc, join(docsDir, 'u'), { recursive: true });
+    console.log('Copied u/ redirects → docs/u/');
+  } catch (e) {
+    if (e && e.code !== 'ENOENT') throw e;
+  }
+
   for (const brief of briefs) {
     const html = renderBriefingPage(brief, '../');
     await writeFile(join(docsDir, 'briefs', `${brief.id}.html`), html, 'utf8');
