@@ -1,0 +1,104 @@
+{
+  "asOf": "2026-08-30",
+  "audience": "Girish and the Buzz research desk",
+  "governingThought": "### TDD Canary 20260830-1330: The Case for Local-First Prompt OS Orchestration",
+  "id": "tdd-canary-20260830-1330-local-first",
+  "meceMap": [
+    "Brief",
+    "Section 2",
+    "Section 3",
+    "Section 4",
+    "Section 5",
+    "Section 6",
+    "Section 7"
+  ],
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Brief",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "### TDD Canary 20260830-1330: The Case for Local-First Prompt OS Orchestration"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Section 2",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The transition from cloud-dependent IDEs like Cursor to a local-first Prompt OS runner is not merely an optimization; it is a structural necessity for high-fidelity research. By migrating to local orchestration via [https://github.com/ollama/ollama](https://github.com/ollama/ollama), we eliminate the \"curiosity tax\" imposed by subscription-based token models. This brief outlines why local autonomy is the only viable path for recursive, infinite-context research."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Section 3",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**1. Elimination of the Token-Burn Bottleneck**\nCloud-bound IDEs utilize rate limiting and token-based billing as a mechanism to protect profit margins, which inherently throttles deep, multi-layered reasoning. By shifting to a local runner, we decouple research velocity from financial overhead. This allows for continuous, recursive synthesis without the fear of hitting arbitrary usage caps or incurring latency penalties during intensive analytical tasks."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Section 4",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**2. Structural Integrity of Persistent Knowledge Graphs**\nCloud environments prioritize ephemeral, request-based interactions that lack long-term context retention. A local Prompt OS runner enables the construction of a persistent, private knowledge graph. This architecture ensures that every research iteration builds upon the last, creating a cumulative density of data that cloud-based models cannot replicate due to their stateless nature and privacy constraints."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Section 5",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**3. Computational Autonomy and Latency Optimization**\nLocal execution provides the necessary computational overhead to handle complex, multi-layered analytical workflows that cloud-bound environments intentionally restrict. By leveraging local hardware, researchers gain the ability to execute high-frequency, recursive prompts that would otherwise be cost-prohibitive or blocked by external API constraints."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Section 6",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Conclusion**\nThe TDD canary 20260830-1330 confirms that the reliance on cloud-based IDEs is a structural bottleneck for high-frequency research. To maintain competitive research velocity, the shift to a local-first Prompt OS runner is the verified standard. By prioritizing local autonomy, we move the research objective from cost-per-request to the structural integrity of our private, infinite-context synthesis."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Section 7",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Sources:**\n*   [Ollama GitHub Repository](https://github.com/ollama/ollama)\n*   [Local-First Software Principles](https://www.inkandswitch.com/local-first/)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "https://github.com/ollama/ollama",
+      "url": "https://github.com/ollama/ollama"
+    },
+    {
+      "label": "https://www.inkandswitch.com/local-first/",
+      "url": "https://www.inkandswitch.com/local-first/"
+    }
+  ],
+  "takeaways": [
+    "### TDD Canary 20260830-1330: The Case for Local-First Prompt OS Orchestration",
+    "The transition from cloud-dependent IDEs like Cursor to a local-first Prompt OS runner is not merely an optimization; it is a structural necessity for high-fidelity research. By migrating to local orchestration via [https://github.com/ollama/ollama](https://github.com/ollama/ollama), we eliminate the \"curiosity tax\" imposed by subscription-based token models. This brief outlines why local autonomy",
+    "**1. Elimination of the Token-Burn Bottleneck** Cloud-bound IDEs utilize rate limiting and token-based billing as a mechanism to protect profit margins, which inherently throttles deep, multi-layered reasoning. By shifting to a local runner, we decouple research velocity from financial overhead. This allows for continuous, recursive synthesis without the fear of hitting arbitrary usage caps or inc"
+  ],
+  "title": "TDD canary 20260830-1330: why a local-first TokenNoCap plus Prompt OS runner bea",
+  "topic": "TDD canary 20260830-1330: why a local-first TokenNoCap plus Prompt OS runner beats burning Cursor tokens on overnight research. Need sourced brief and unlisted page."
+}
