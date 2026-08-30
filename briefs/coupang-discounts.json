@@ -1,0 +1,112 @@
+{
+  "id": "coupang-discounts",
+  "title": "Coupang “~90% off”: what the steepest verifiable deals actually are",
+  "topic": "Coupang fashion and useful-goods discounts",
+  "audience": "A careful shopper who hates fake sale badges",
+  "asOf": "2026-08-30",
+  "governingThought": "Coupang’s headline “up to 90% off” is marketing shorthand — verified company press releases and sale guides cap most major events at 70–80%, with item-level math that shoppers can check before checkout.",
+  "takeaways": [
+    "Official Coupang sale pages ([Wow Big Sale](https://news.coupang.com/archives/54613/), [Kupase fashion sale](https://zdnet.co.kr/view/?no=20250619143645)) advertise **maximum 70–80%** off — not a standing 90% floor on clothing.",
+    "Steepest **item-level** examples from press coverage: Adidas Samba OG at **~64–70% off** (~₩90,000 band), New Balance tees at **~2만원대**, Gap slippers at **~₩8,000** during Kupase ([Seoul Times](https://www.seoultimes.news/news/article.html?no=2000074264)).",
+    "Treat any “90%+” badge as unverified until you compare **listed price vs. your own price-history screenshot** — Coupang’s own [sale guide](https://guide.coupang.com/all-about-coupang-fashion-sale-2025/) documents 80% as the Kupase ceiling."
+  ],
+  "meceMap": [
+    "What “90% off” claims actually mean on Coupang",
+    "Verified steepest categories and example products",
+    "How to spot inflated “was” prices",
+    "Where to find live deals today"
+  ],
+  "sections": [
+    {
+      "id": "headline-vs-reality",
+      "title": "What “90% off” claims actually mean",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Coupang runs several named sale events. In 2025, the company’s own newsroom described [Wow Big Sale](https://news.coupang.com/archives/54613/) as **up to 70% off** across 14 categories (July 7–13, 2025). [Wow Week](https://news.coupang.com/archives/55610/) (Aug 18–24, 2025) also capped at **70%**. Fashion-specific [Kupase (쿠패세)](https://zdnet.co.kr/view/?no=20250619143645) ran June 16–29, 2025 with **up to 80%** on 500+ brands."
+        },
+        {
+          "type": "callout",
+          "title": "No verified 90% platform-wide sale found",
+          "text": "Across Coupang newsroom releases and Korean press recaps searched for this brief, **80%** is the highest event ceiling cited for fashion (Kupase). Individual SKUs may show higher percentage badges in-app, but those require per-item verification — see Section 3."
+        },
+        {
+          "type": "paragraph",
+          "text": "A July 2026 [Women’s Fashion Festival](https://www.ajupress.com/view/20260709091270107) (through July 12) offered tiered coupons (₩5,000 off ₩50,000+; ₩15,000 off ₩100,000+) rather than a flat 90% headline."
+        }
+      ]
+    },
+    {
+      "id": "steepest-verified",
+      "title": "Verified steepest categories and example products",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These examples come from Coupang’s Kupase press coverage — prices are **approximate bands** as reported by media, not live checkout quotes. Open Coupang search for the product name to see today’s price."
+        },
+        {
+          "type": "table",
+          "headers": ["Product (as reported)", "Reported sale band", "Reported discount", "Source"],
+          "rows": [
+            ["Adidas Samba OG sneakers", "~₩90,000", "~64–70% off", "[Coupang guide](https://guide.coupang.com/all-about-coupang-fashion-sale-2025/)"],
+            ["New Balance sports jersey tee", "~₩20,000s", "event pricing", "[ZDNet Kupase](https://zdnet.co.kr/view/?no=20250619143645)"],
+            ["Nike Calm Shower slides", "~₩30,000s", "event pricing", "[Newspim](https://www.newspim.com/news/view/20250619000110)"],
+            ["Hunter short rain boots", "~₩120,000s", "~30% off", "[Coupang guide](https://guide.coupang.com/all-about-coupang-fashion-sale-2025/)"],
+            ["Gap slippers", "~₩8,000", "half-year bestseller pricing", "[Seoul Times](https://www.seoultimes.news/news/article.html?no=2000074264)"],
+            ["Glamorous Touch bra/panty set", "~₩8,000", "bestseller pricing", "[Seoul Times](https://www.seoultimes.news/news/article.html?no=2000074264)"],
+            ["Kirsh / Juicy Judy summer sets", "up to 80% off category", "up to 80%", "[ZDNet](https://zdnet.co.kr/view/?no=20250619143645)"],
+            ["Spao / Giordano basics", "up to 75% off category", "up to 75%", "[ZDNet](https://zdnet.co.kr/view/?no=20250619143645)"]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "**Useful non-clothing:** [Cougase (가전·디지털 세일)](https://news.coupang.com/archives/57782/) (Oct 27–Nov 9, 2025 press window) featured **₩100** and **₩9,900** flash SKUs plus up to 20% card discounts — verify availability in the Coupang app’s “선착순 특가” corner."
+        },
+        {
+          "type": "paragraph",
+          "text": "Product search entry points (prices change daily): search Coupang for [“아디다스 삼바 OG”](https://www.coupang.com/np/search?q=%EC%95%84%EB%94%94%EB%8B%A4%EC%8A%A4+%EC%82%BC%EB%B0%94+OG), [“뉴발란스 저지 티셔츠”](https://www.coupang.com/np/search?q=%EB%89%B4%EB%B0%9C%EB%9E%80%EC%8A%A4+%EC%A0%80%EC%A7%80), [“갭 슬리퍼”](https://www.coupang.com/np/search?q=%EA%B0%AD+%EC%8A%AC%EB%A6%AC%ED%8D%BC)."
+        }
+      ]
+    },
+    {
+      "id": "fake-badges",
+      "title": "How to spot inflated “was” prices",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "**Cross-check the percentage** — if the badge says 90% but Coupang’s own event page caps at 80%, screenshot both.",
+            "**Compare outside Coupang** — check the brand’s official store or [Naver Shopping](https://shopping.naver.com/) price history for the same SKU.",
+            "**Watch coupon stacking** — Wow-member coupons (₩5,000 off ₩50,000+) change the paid price but not always the displayed “% off” badge.",
+            "**Rocket Wow vs non-member** — instant discounts in [Kupase guide](https://guide.coupang.com/all-about-coupang-fashion-sale-2025/) are member-specific; the badge may assume Wow pricing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "live-deals",
+      "title": "Where to find live deals today",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "[Coupang Newsroom](https://news.coupang.com/) — official event dates and caps",
+            "[Coupang fashion sale guide](https://guide.coupang.com/all-about-coupang-fashion-sale-2025/) — Kupase mechanics and brand list",
+            "Coupang app → 패션 / 가전 tabs during named festivals (쿠패세, 와우빅세일, 쿠가세)",
+            "This brief’s as-of date: **2026-08-30 UTC** — no live SKU prices were captured; verify at checkout."
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "label": "Coupang — Wow Big Sale press release (max 70%)", "url": "https://news.coupang.com/archives/54613/" },
+    { "label": "Coupang — Wow Week press release (max 70%)", "url": "https://news.coupang.com/archives/55610/" },
+    { "label": "Coupang — Cougase electronics sale", "url": "https://news.coupang.com/archives/57782/" },
+    { "label": "Coupang fashion sale guide (Kupase, max 80%)", "url": "https://guide.coupang.com/all-about-coupang-fashion-sale-2025/" },
+    { "label": "ZDNet Korea — Kupase coverage", "url": "https://zdnet.co.kr/view/?no=20250619143645" },
+    { "label": "Newspim — Kupase coverage", "url": "https://www.newspim.com/news/view/20250619000110" },
+    { "label": "Seoul Times — Kupase representative products", "url": "https://www.seoultimes.news/news/article.html?no=2000074264" },
+    { "label": "Aju Press — Women's Fashion Festival", "url": "https://www.ajupress.com/view/20260709091270107" }
+  ]
+}
