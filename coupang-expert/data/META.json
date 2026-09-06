@@ -1,18 +1,10 @@
 {
-  "dataSource": "syopeo-gmail-ingest",
-  "owner": "Girish",
-  "dashboard": "coupang-expert",
-  "coverageNote": "awaiting live export",
-  "periodMonths": 12,
-  "channels": ["coupang", "coupang-eats"],
-  "generatedAt": null,
-  "orderCount": 0,
-  "currency": "KRW",
-  "locale": "en",
-  "readOnly": true,
-  "agentEndpoints": {
-    "orders": "data/orders-12mo.json",
-    "rollups": "data/rollups-12mo.json",
-    "meta": "data/META.json"
-  }
+  "dataSource": "live-gmail",
+  "exportedAt": "2026-09-06T13:08:22.759430Z",
+  "orderCount": 191,
+  "totalKrw": 3087155,
+  "dateMin": "2026-06-10T02:07:41Z",
+  "dateMax": "2026-09-06T05:53:33Z",
+  "coverageNote": "Partial honest export from 277 fetched messages (target 984). Gaps shown; no invented months. Re-publish when fetch completes.",
+  "syopeoTip": "bca22c2"
 }
