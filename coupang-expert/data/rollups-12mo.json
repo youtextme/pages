@@ -1,25 +1,618 @@
 {
-  "dataSource": "syopeo-gmail-ingest",
-  "generatedAt": null,
-  "period": {
-    "start": null,
-    "end": null
+  "meta": {
+    "dataSource": "live-gmail",
+    "exportedAt": "2026-09-06T13:08:22.759430Z",
+    "orderCount": 191,
+    "totalKrw": 3087155,
+    "dateMin": "2026-06-10T02:07:41Z",
+    "dateMax": "2026-09-06T05:53:33Z",
+    "coverageNote": "Partial honest export from 277 fetched messages (target 984). Gaps shown; no invented months. Re-publish when fetch completes.",
+    "syopeoTip": "bca22c2"
   },
-  "totals": {
-    "all": 0,
-    "coupang": 0,
-    "coupangEats": 0
+  "byChannel": {
+    "coupang": {
+      "count": 183,
+      "krw": 2985190
+    },
+    "eats": {
+      "count": 8,
+      "krw": 101965
+    }
   },
-  "monthly": [],
-  "byCategory": [],
-  "byChannel": [
-    { "channel": "coupang", "label": "Coupang", "amount": 0, "count": 0 },
-    { "channel": "coupang-eats", "label": "Coupang Eats", "amount": 0, "count": 0 }
+  "byMonth": {
+    "2026-06": {
+      "coupang": 693030,
+      "eats": 7890,
+      "count": 36
+    },
+    "2026-07": {
+      "coupang": 809410,
+      "eats": 23306,
+      "count": 61
+    },
+    "2026-08": {
+      "coupang": 1275980,
+      "eats": 70769,
+      "count": 81
+    },
+    "2026-09": {
+      "coupang": 206770,
+      "eats": 0,
+      "count": 13
+    }
+  },
+  "byCategory": [
+    {
+      "label": "Coupang order",
+      "krw": 401285
+    },
+    {
+      "label": "Must drawer chest",
+      "krw": 234800
+    },
+    {
+      "label": "BMX bike stunt",
+      "krw": 174500
+    },
+    {
+      "label": "Gomgom fresh grade",
+      "krw": 143400
+    },
+    {
+      "label": "Other",
+      "krw": 97080
+    },
+    {
+      "label": "Chloe Nomade EDP",
+      "krw": 77440
+    },
+    {
+      "label": "Gomgom cheddar cheese",
+      "krw": 76540
+    },
+    {
+      "label": "M A C",
+      "krw": 64300
+    },
+    {
+      "label": "Pascalmorabito Felice Precious",
+      "krw": 55900
+    },
+    {
+      "label": "CookBuddy wok for",
+      "krw": 51900
+    },
+    {
+      "label": "Atto Block Heungnyemun",
+      "krw": 49130
+    },
+    {
+      "label": "Babyliss Hydro Smooth",
+      "krw": 47410
+    },
+    {
+      "label": "What the Farmers",
+      "krw": 44700
+    },
+    {
+      "label": "Lillaco table football",
+      "krw": 39200
+    },
+    {
+      "label": "Dr Honest pharmacy",
+      "krw": 38320
+    },
+    {
+      "label": "Lotte Zero chocolate",
+      "krw": 37000
+    },
+    {
+      "label": "Alianza avocado oil",
+      "krw": 36810
+    },
+    {
+      "label": "Shower 145W 30000mAh",
+      "krw": 36280
+    },
+    {
+      "label": "Vidal Sassoon types",
+      "krw": 34900
+    },
+    {
+      "label": "Discounted on restock",
+      "krw": 34760
+    },
+    {
+      "label": "Gomgom daily cheddar",
+      "krw": 28950
+    },
+    {
+      "label": "Final Sense men",
+      "krw": 28900
+    },
+    {
+      "label": "1A 3L",
+      "krw": 28680
+    },
+    {
+      "label": "SooOli extra large",
+      "krw": 28160
+    },
+    {
+      "label": "Moguchon antibiotic free",
+      "krw": 26420
+    },
+    {
+      "label": "Pop Time white",
+      "krw": 26000
+    },
+    {
+      "label": "TAMSA automatic air",
+      "krw": 25220
+    },
+    {
+      "label": "New Zealand Milkio",
+      "krw": 24700
+    },
+    {
+      "label": "Delicious healthy What",
+      "krw": 23900
+    },
+    {
+      "label": "Unisex windbreaker premium",
+      "krw": 21900
+    }
   ],
-  "topPurchases": [],
-  "insights": [
-    "No purchase data loaded yet — awaiting live Gmail export from Syopeo ingest.",
-    "Once data arrives, this dashboard will show 12-month spend trends, category mix, and top purchases.",
-    "All figures are read-only analytics derived from Gmail transaction emails."
+  "top50": [
+    {
+      "id": "19eca7882595580f",
+      "purchasedAt": "2026-06-15T08:49:14Z",
+      "amountKrw": 234800,
+      "title": "Must 1000 drawer chest made in Korea installation servic",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fc5da2631f2270",
+      "purchasedAt": "2026-08-03T04:20:11Z",
+      "amountKrw": 180000,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fd10a5732c5b7e",
+      "purchasedAt": "2026-08-05T08:29:01Z",
+      "amountKrw": 174500,
+      "title": "BMX bike stunt bike for beginners stunt see photo lightw",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0362407020ed5f",
+      "purchasedAt": "2026-08-24T23:38:44Z",
+      "amountKrw": 77440,
+      "title": "Chloe Nomade EDP, 50 ml, 1 unit ₩77,440 1 ₩77,440 COUPAN",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0341feec6ed6c2",
+      "purchasedAt": "2026-08-24T14:15:01Z",
+      "amountKrw": 55900,
+      "title": "Pascalmorabito Felice Precious Eau de Parfum, 100 ml, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02427a40aa8c17",
+      "purchasedAt": "2026-08-21T11:49:31Z",
+      "amountKrw": 55800,
+      "title": "두바이향수 중동 향수 아랍 퍼퓸선물세트 오래가는 향수 아랍에미리트 니치향수 고급선물세트 이국적인향기,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f633bf8f9587a7",
+      "purchasedAt": "2026-07-15T00:45:00Z",
+      "amountKrw": 51900,
+      "title": "CookBuddy wok for induction and gas stove 5-ply 316 stai",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eca9e28dd080d4",
+      "purchasedAt": "2026-06-15T09:30:21Z",
+      "amountKrw": 49130,
+      "title": "Atto Block Heungnyemun L compatible blocks 5240wg, multi",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee42c0c9891845",
+      "purchasedAt": "2026-06-20T08:35:51Z",
+      "amountKrw": 47410,
+      "title": "Babyliss Hydro Smooth Airbrush Volume Curling Iron, AS29",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f0bc908488c52d",
+      "purchasedAt": "2026-06-28T01:12:30Z",
+      "amountKrw": 38320,
+      "title": "Dr. Honest pharmacy-approved lumbar support belt waist b",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f3ad2911c193d3",
+      "purchasedAt": "2026-07-07T04:25:04Z",
+      "amountKrw": 36810,
+      "title": "Alianza avocado oil, 2 unit, 1 L ₩36,810 1 ₩36,810 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a04ed68eb6858fb",
+      "purchasedAt": "2026-08-29T18:44:37Z",
+      "amountKrw": 36280,
+      "title": "Shower 145W 30000mAh PPS ultra-fast portable charger, SH",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fae6883ad0e858",
+      "purchasedAt": "2026-07-29T15:05:10Z",
+      "amountKrw": 36060,
+      "title": "Gomgom cheddar cheese slices, 18 g, 100 -pack, 2 unit ₩3",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee410b9c0c283f",
+      "purchasedAt": "2026-06-20T08:06:00Z",
+      "amountKrw": 34900,
+      "title": "Vidal Sassoon 3 types brush hot air styler, VSAS80PIK, b",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f934bfb8ea1954",
+      "purchasedAt": "2026-07-24T08:44:14Z",
+      "amountKrw": 34760,
+      "title": "[Discounted on restock] Saber del Sur avocado oil large",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f6a53ed554cf14",
+      "purchasedAt": "2026-07-16T09:48:31Z",
+      "amountKrw": 32150,
+      "title": "M.A.C Maximal silky matte lipstick, 1 unit, velvet teddy",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f6aaa88b993167",
+      "purchasedAt": "2026-07-16T11:23:07Z",
+      "amountKrw": 32150,
+      "title": "M.A.C Maximal silky matte lipstick, 1 unit, velvet teddy",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f79cec613d2077",
+      "purchasedAt": "2026-07-19T09:57:01Z",
+      "amountKrw": 28950,
+      "title": "Gomgom daily cheddar cheese slices, 18 g, 50 -pack, 3 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f7417586f4d4c6",
+      "purchasedAt": "2026-07-18T07:18:33Z",
+      "amountKrw": 28900,
+      "title": "Final Sense men&#x27;s ice silk wide drape jogger pants",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a074177b916a758",
+      "purchasedAt": "2026-09-06T00:21:30Z",
+      "amountKrw": 28590,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f8c55f7a1e126e",
+      "purchasedAt": "2026-07-23T00:17:51Z",
+      "amountKrw": 28490,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a06f5afedcec306",
+      "purchasedAt": "2026-09-05T02:17:09Z",
+      "amountKrw": 28160,
+      "title": "SooOli extra large beach towel 100% cotton water play st",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1611ad2c09258",
+      "purchasedAt": "2026-06-30T01:08:03Z",
+      "amountKrw": 26000,
+      "title": "Pop Time white cheddar cheese flavor avocado oil popcorn",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ed3e6664e62d79",
+      "purchasedAt": "2026-06-17T04:45:51Z",
+      "amountKrw": 25220,
+      "title": "TAMSA automatic air freshener dispenser with timer, 173",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a064b4c6512520c",
+      "purchasedAt": "2026-09-03T00:39:23Z",
+      "amountKrw": 25000,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a021cce2342dae2",
+      "purchasedAt": "2026-08-21T00:51:10Z",
+      "amountKrw": 25000,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": "rocket-fresh",
+      "source": "gmail"
+    },
+    {
+      "id": "19fb62d334ffaa51",
+      "purchasedAt": "2026-07-31T03:17:21Z",
+      "amountKrw": 24700,
+      "title": "(New Zealand) Milkio grass-fed ghee 726g (800ml) can pac",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fc29f78881ced9",
+      "purchasedAt": "2026-08-02T13:17:37Z",
+      "amountKrw": 23900,
+      "title": "Delicious healthy What the Farmers original oven-baked s",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f03ffceb674192",
+      "purchasedAt": "2026-06-26T12:55:21Z",
+      "amountKrw": 21900,
+      "title": "Unisex windbreaker premium ultra-lightweight UV protecti",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f3e8ea2720cbd1",
+      "purchasedAt": "2026-07-07T21:49:21Z",
+      "amountKrw": 21890,
+      "title": "Gomgom cheddar cheese slices, 18 g, 100 -pack, 1 unit ₩2",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a00e961d82367c0",
+      "purchasedAt": "2026-08-17T07:18:33Z",
+      "amountKrw": 21058,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "19fa38fe18bd1b9e",
+      "purchasedAt": "2026-07-27T12:32:21Z",
+      "amountKrw": 20900,
+      "title": "Costco HOODYS Hoodys cocktail peanuts peanuts 1.58kg mad",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a03c039614e204e",
+      "purchasedAt": "2026-08-26T03:01:01Z",
+      "amountKrw": 19900,
+      "title": "Boys’ rustling sports jogger pants workout pants 2-piece",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05680ede7bb99b",
+      "purchasedAt": "2026-08-31T06:28:03Z",
+      "amountKrw": 19800,
+      "title": "NUNUHANA 하이웨스트 심리스 속바지 뱃살 보정 사각 드로즈, 스킨-추천, XL(60-70kg)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a06767030500129",
+      "purchasedAt": "2026-09-03T13:13:17Z",
+      "amountKrw": 19600,
+      "title": "Lillaco table football game mini World Cup stadium, 1 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05fed27c843723",
+      "purchasedAt": "2026-09-02T02:22:51Z",
+      "amountKrw": 19600,
+      "title": "Lillaco table football game mini World Cup stadium, 1 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fdad4323ae6850",
+      "purchasedAt": "2026-08-07T06:06:07Z",
+      "amountKrw": 18950,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "1a071cef1d437d13",
+      "purchasedAt": "2026-09-05T13:43:01Z",
+      "amountKrw": 18590,
+      "title": "Gomgom cheddar cheese slices, 18 g, 100 -pack, 1 unit ₩1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19edfcf422b45aad",
+      "purchasedAt": "2026-06-19T12:16:00Z",
+      "amountKrw": 18410,
+      "title": "[Hangangsikpum] Hangangsikpum antibiotic-free certified",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1bdf2e7ce453e",
+      "purchasedAt": "2026-07-01T04:10:38Z",
+      "amountKrw": 17700,
+      "title": "Ohora natural glow milk syrup nail strengthener Earl Gre",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a075477f1ed462a",
+      "purchasedAt": "2026-09-06T05:53:33Z",
+      "amountKrw": 17010,
+      "title": "Comet Home Oeko-Tex certified hotel bath towel 450g 30 t",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a03e30c8c1abb7f",
+      "purchasedAt": "2026-08-26T13:09:39Z",
+      "amountKrw": 17000,
+      "title": "Sentive carbon steel bicycle number key chain lock sturd",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f46fe0d272ac8b",
+      "purchasedAt": "2026-07-09T13:08:00Z",
+      "amountKrw": 16900,
+      "title": "sweetness selected 11 brix watermelon, over 5kg, 1 unit",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02ad3dba647c30",
+      "purchasedAt": "2026-08-22T18:55:21Z",
+      "amountKrw": 16900,
+      "title": "Miseen Scene Salon 10 no-wash ampoule treatment for extr",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fa39162b7b77ed",
+      "purchasedAt": "2026-07-27T12:34:00Z",
+      "amountKrw": 16420,
+      "title": "다맘 볶음 캐슈넛, 1kg, 1개 ₩16,420 1 ₩16,420 쿠팡(주) Payment infor",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0474b6bcf87b22",
+      "purchasedAt": "2026-08-28T07:35:19Z",
+      "amountKrw": 16417,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "19ff5bbb2348c1c5",
+      "purchasedAt": "2026-08-12T11:29:05Z",
+      "amountKrw": 15900,
+      "title": "AOUGK 1+1 men’s oversized checkered shirt casual long sl",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ecdcef04767a42",
+      "purchasedAt": "2026-06-16T00:22:30Z",
+      "amountKrw": 15900,
+      "title": "Bouquetgarni Eco Clear Laundry Liquid Soap Main Product,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a043335f1596afa",
+      "purchasedAt": "2026-08-27T12:30:33Z",
+      "amountKrw": 15600,
+      "title": "JS Living Nana Bongbong steam iron hanger stand, modern",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f789123f1c9213",
+      "purchasedAt": "2026-07-19T04:10:04Z",
+      "amountKrw": 15470,
+      "title": "달바 화이트 트러플 퍼스트 스프레이 세럼, 100ml, 1개 ₩15,470 1 ₩15,470 쿠팡(주",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    }
   ]
 }
