@@ -2,17 +2,11 @@
   "dataSource": "syopeo-gmail-ingest",
   "owner": "Girish",
   "dashboard": "coupang-expert",
-  "coverageNote": "PARTIAL live export: dateMin=2026-06-10 dateMax=2026-09-06; monthsPresent=['2026-06', '2026-07', '2026-08', '2026-09']; monthsMissing=['2025-09', '2025-10', '2025-11', '2025-12', '2026-01', '2026-02', '2026-03', '2026-04', '2026-05']; orderCount=190; rawFetched=278/984. Missing months show no spend — not invented. Refreshing as Gmail ingest grows.",
+  "coverageNote": "FILTERED live export: dateMin=2025-09-09 dateMax=2026-09-06; monthsPresent=['2025-09', '2025-10', '2025-11', '2025-12', '2026-01', '2026-02', '2026-03', '2026-04', '2026-05', '2026-06', '2026-07', '2026-08', '2026-09']; monthsMissing=[]; orderCount=170; excludedUnverifiableSep6=0 of desk 407. Missing months show no spend — not invented. Zero Gmail this rebuild.",
   "periodMonths": 12,
-  "dateMin": "2026-06-10",
+  "dateMin": "2025-09-09",
   "dateMax": "2026-09-06",
   "monthsPresent": [
-    "2026-06",
-    "2026-07",
-    "2026-08",
-    "2026-09"
-  ],
-  "monthsMissing": [
     "2025-09",
     "2025-10",
     "2025-11",
@@ -21,14 +15,19 @@
     "2026-02",
     "2026-03",
     "2026-04",
-    "2026-05"
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
   ],
+  "monthsMissing": [],
   "channels": [
     "coupang",
     "coupang-eats"
   ],
-  "generatedAt": "2026-09-06T13:09:12.961987Z",
-  "orderCount": 190,
+  "generatedAt": "2026-09-06T13:14:47.006628Z",
+  "orderCount": 170,
   "currency": "KRW",
   "locale": "en",
   "readOnly": true,
