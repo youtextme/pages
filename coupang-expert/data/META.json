@@ -1,10 +1,30 @@
 {
   "dataSource": "live-gmail",
-  "exportedAt": "2026-09-06T13:08:22.759430Z",
-  "orderCount": 191,
-  "totalKrw": 3087155,
-  "dateMin": "2026-06-10T02:07:41Z",
+  "exportedAt": "2026-09-06T13:10:32Z",
+  "orderCount": 203,
+  "totalKrw": 3235845,
+  "dateMin": "2026-06-07T07:13:34Z",
   "dateMax": "2026-09-06T05:53:33Z",
-  "coverageNote": "Partial honest export from 277 fetched messages (target 984). Gaps shown; no invented months. Re-publish when fetch completes.",
-  "syopeoTip": "bca22c2"
+  "periodMonths": 12,
+  "monthsPresent": [
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "monthsMissing": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
+  ],
+  "coverageNote": "Partial honest LIVE export from 291 fetched msgs (target 984). monthsMissing declared; gaps not invented as spend. syopeoTip bca22c2.",
+  "syopeoTip": "bca22c2",
+  "currency": "KRW",
+  "locale": "en",
+  "readOnly": true
 }
