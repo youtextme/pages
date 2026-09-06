@@ -1,18 +1,38 @@
 {
   "meta": {
     "dataSource": "live-gmail",
-    "exportedAt": "2026-09-06T13:08:22.759430Z",
-    "orderCount": 191,
-    "totalKrw": 3087155,
-    "dateMin": "2026-06-10T02:07:41Z",
+    "exportedAt": "2026-09-06T13:10:32Z",
+    "orderCount": 203,
+    "totalKrw": 3235845,
+    "dateMin": "2026-06-07T07:13:34Z",
     "dateMax": "2026-09-06T05:53:33Z",
-    "coverageNote": "Partial honest export from 277 fetched messages (target 984). Gaps shown; no invented months. Re-publish when fetch completes.",
-    "syopeoTip": "bca22c2"
+    "periodMonths": 12,
+    "monthsPresent": [
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "monthsMissing": [
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05"
+    ],
+    "coverageNote": "Partial honest LIVE export from 291 fetched msgs (target 984). monthsMissing declared; gaps not invented as spend. syopeoTip bca22c2.",
+    "syopeoTip": "bca22c2",
+    "currency": "KRW",
+    "locale": "en",
+    "readOnly": true
   },
   "byChannel": {
     "coupang": {
-      "count": 183,
-      "krw": 2985190
+      "count": 195,
+      "krw": 3133880
     },
     "eats": {
       "count": 8,
@@ -21,9 +41,9 @@
   },
   "byMonth": {
     "2026-06": {
-      "coupang": 693030,
+      "coupang": 841720,
       "eats": 7890,
-      "count": 36
+      "count": 48
     },
     "2026-07": {
       "coupang": 809410,
@@ -123,6 +143,10 @@
       "krw": 34760
     },
     {
+      "label": "Jayeonpong steam wash",
+      "krw": 29600
+    },
+    {
       "label": "Gomgom daily cheddar",
       "krw": 28950
     },
@@ -151,16 +175,12 @@
       "krw": 25220
     },
     {
+      "label": "Pantone PD 5W",
+      "krw": 24900
+    },
+    {
       "label": "New Zealand Milkio",
       "krw": 24700
-    },
-    {
-      "label": "Delicious healthy What",
-      "krw": 23900
-    },
-    {
-      "label": "Unisex windbreaker premium",
-      "krw": 21900
     }
   ],
   "top50": [
@@ -399,6 +419,15 @@
       "source": "gmail"
     },
     {
+      "id": "19eac0d6317bdfe4",
+      "purchasedAt": "2026-06-09T11:03:37Z",
+      "amountKrw": 24900,
+      "title": "Pantone PD 22.5W ultra-fast charging large-capacity inte",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
       "id": "19fb62d334ffaa51",
       "purchasedAt": "2026-07-31T03:17:21Z",
       "amountKrw": 24700,
@@ -435,6 +464,15 @@
       "source": "gmail"
     },
     {
+      "id": "19ea1c1592b92d97",
+      "purchasedAt": "2026-06-07T11:04:22Z",
+      "amountKrw": 21480,
+      "title": "Sowanamu white cheddar sliced cheese, 18 g, 100 -pack, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
       "id": "1a00e961d82367c0",
       "purchasedAt": "2026-08-17T07:18:33Z",
       "amountKrw": 21058,
@@ -448,6 +486,15 @@
       "purchasedAt": "2026-07-27T12:32:21Z",
       "amountKrw": 20900,
       "title": "Costco HOODYS Hoodys cocktail peanuts peanuts 1.58kg mad",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eacae0f405b719",
+      "purchasedAt": "2026-06-09T13:59:07Z",
+      "amountKrw": 20230,
+      "title": "Altive protein pistachio flavor, 250 ml, 18 unit ₩20,230",
       "channel": "coupang",
       "deliveryType": null,
       "source": "gmail"
@@ -586,33 +633,16 @@
       "channel": "coupang",
       "deliveryType": null,
       "source": "gmail"
-    },
-    {
-      "id": "19ecdcef04767a42",
-      "purchasedAt": "2026-06-16T00:22:30Z",
-      "amountKrw": 15900,
-      "title": "Bouquetgarni Eco Clear Laundry Liquid Soap Main Product,",
-      "channel": "coupang",
-      "deliveryType": null,
-      "source": "gmail"
-    },
-    {
-      "id": "1a043335f1596afa",
-      "purchasedAt": "2026-08-27T12:30:33Z",
-      "amountKrw": 15600,
-      "title": "JS Living Nana Bongbong steam iron hanger stand, modern",
-      "channel": "coupang",
-      "deliveryType": null,
-      "source": "gmail"
-    },
-    {
-      "id": "19f789123f1c9213",
-      "purchasedAt": "2026-07-19T04:10:04Z",
-      "amountKrw": 15470,
-      "title": "달바 화이트 트러플 퍼스트 스프레이 세럼, 100ml, 1개 ₩15,470 1 ₩15,470 쿠팡(주",
-      "channel": "coupang",
-      "deliveryType": null,
-      "source": "gmail"
     }
+  ],
+  "monthsMissing": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05"
   ]
 }
