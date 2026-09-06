@@ -29,22 +29,179 @@ function formatKRW(amount) {
 }
 
 function channelLabel(channel) {
-  if (channel === 'coupang-eats' || channel === 'coupangEats') return 'Coupang Eats';
+  if (channel === 'coupang-eats' || channel === 'coupangEats' || channel === 'eats') {
+    return 'Coupang Eats';
+  }
   if (channel === 'coupang') return 'Coupang';
   return channel;
 }
 
 function channelClass(channel) {
-  if (channel === 'coupang-eats' || channel === 'coupangEats') return 'eats';
+  if (channel === 'coupang-eats' || channel === 'coupangEats' || channel === 'eats') {
+    return 'eats';
+  }
   return 'coupang';
 }
 
+function channelKrw(value) {
+  if (value == null) return 0;
+  if (typeof value === 'number') return value;
+  return value.krw ?? 0;
+}
+
+function channelCount(value) {
+  if (value == null) return 0;
+  if (typeof value === 'number') return 0;
+  return value.count ?? 0;
+}
+
+function isLiveRollupsSchema(raw) {
+  return Boolean(raw?.meta || raw?.byMonth || raw?.top50);
+}
+
+function normalizeRollups(raw) {
+  if (!isLiveRollupsSchema(raw)) {
+    return {
+      totals: raw.totals ?? { all: 0, coupang: 0, coupangEats: 0 },
+      monthly: raw.monthly ?? [],
+      byCategory: (raw.byCategory ?? []).map((c) => ({
+        label: c.label ?? c.category,
+        amount: c.krw ?? c.amount ?? 0,
+        count: c.count ?? 0,
+      })),
+      byChannel: (raw.byChannel ?? []).map((c) => ({
+        label: c.label ?? channelLabel(c.channel),
+        amount: c.amount ?? 0,
+        count: c.count ?? 0,
+      })),
+      topPurchases: (raw.topPurchases ?? []).map((p) => ({
+        name: p.name ?? p.title ?? p.label ?? 'Unknown',
+        date: p.date ?? p.purchasedAt,
+        amount: p.amount ?? p.amountKrw ?? 0,
+        channel: p.channel ?? 'coupang',
+      })),
+      insights: raw.insights ?? [],
+      monthsMissing: raw.coverage?.monthsMissing ?? raw.monthsMissing ?? [],
+    };
+  }
+
+  const meta = raw.meta ?? {};
+  const byChannel = raw.byChannel ?? {};
+  const coupangKrw = channelKrw(byChannel.coupang);
+  const eatsKrw = channelKrw(byChannel.eats);
+  const totals = {
+    all: meta.totalKrw ?? (coupangKrw + eatsKrw),
+    coupang: coupangKrw,
+    coupangEats: eatsKrw,
+  };
+
+  const monthly = Object.entries(raw.byMonth ?? {})
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([month, value]) => {
+      if (typeof value === 'number') {
+        return { month, coupang: 0, coupangEats: 0, all: value };
+      }
+      const coupang = value.coupang ?? 0;
+      const eats = value.eats ?? 0;
+      return {
+        month,
+        coupang,
+        coupangEats: eats,
+        all: coupang + eats,
+        counts: value.count != null ? { all: value.count } : undefined,
+      };
+    });
+
+  const byCategory = (raw.byCategory ?? []).map((c) => ({
+    label: c.label ?? c.category,
+    amount: c.krw ?? c.amount ?? 0,
+    count: c.count ?? 0,
+  }));
+
+  const byChannelList = [
+    {
+      label: 'Coupang',
+      amount: coupangKrw,
+      count: channelCount(byChannel.coupang),
+    },
+    {
+      label: 'Coupang Eats',
+      amount: eatsKrw,
+      count: channelCount(byChannel.eats),
+    },
+  ];
+
+  const topPurchases = (raw.top50 ?? []).map((p) => ({
+    name: p.title ?? p.label ?? 'Unknown',
+    date: p.purchasedAt,
+    amount: p.amountKrw ?? 0,
+    channel: p.channel ?? 'coupang',
+  }));
+
+  const monthsMissing = raw.monthsMissing ?? meta.monthsMissing ?? [];
+  const insights = buildInsights(meta, monthsMissing, totals);
+
+  return {
+    totals,
+    monthly,
+    byCategory,
+    byChannel: byChannelList,
+    topPurchases,
+    insights,
+    monthsMissing,
+  };
+}
+
+function normalizeMeta(metaFile, rollupsRaw) {
+  const rollupMeta = rollupsRaw?.meta ?? {};
+  return {
+    ...rollupMeta,
+    ...metaFile,
+    orderCount: metaFile.orderCount ?? rollupMeta.orderCount,
+    coverageNote: metaFile.coverageNote ?? rollupMeta.coverageNote,
+    monthsMissing: metaFile.monthsMissing ?? rollupsRaw?.monthsMissing ?? rollupMeta.monthsMissing ?? [],
+    monthsPresent: metaFile.monthsPresent ?? rollupMeta.monthsPresent ?? [],
+    dataSource: metaFile.dataSource ?? rollupMeta.dataSource,
+    generatedAt: metaFile.generatedAt ?? metaFile.exportedAt ?? rollupMeta.exportedAt,
+    dateMin: metaFile.dateMin ?? rollupMeta.dateMin,
+    dateMax: metaFile.dateMax ?? rollupMeta.dateMax,
+  };
+}
+
+function buildInsights(meta, monthsMissing, totals) {
+  const insights = [];
+  if (meta.dateMin && meta.dateMax) {
+    insights.push(`Date window: ${formatDate(meta.dateMin)} → ${formatDate(meta.dateMax)}.`);
+  }
+  if (meta.monthsPresent?.length) {
+    insights.push(`Months with data: ${meta.monthsPresent.join(', ')}.`);
+  }
+  if (monthsMissing.length) {
+    insights.push(`Missing months (no spend shown): ${monthsMissing.join(', ')}.`);
+  }
+  if (meta.orderCount != null) {
+    insights.push(`${meta.orderCount} orders · total ${formatKRW(totals.all)}.`);
+  }
+  return insights;
+}
+
+function formatDate(value) {
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return value;
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
 async function loadData() {
-  const [meta, orders, rollups] = await Promise.all([
+  const [metaFile, ordersRaw, rollupsRaw] = await Promise.all([
     fetch('data/META.json').then((r) => r.json()),
     fetch('data/orders-12mo.json').then((r) => r.json()),
     fetch('data/rollups-12mo.json').then((r) => r.json()),
   ]);
+
+  const orders = Array.isArray(ordersRaw) ? ordersRaw : (ordersRaw.orders ?? []);
+  const meta = normalizeMeta(metaFile, rollupsRaw);
+  const rollups = normalizeRollups(rollupsRaw);
+
   return { meta, orders, rollups };
 }
 
@@ -54,7 +211,7 @@ function renderHero(rollups, meta) {
   document.getElementById('coupang-spend').textContent = formatKRW(totals.coupang);
   document.getElementById('eats-spend').textContent = formatKRW(totals.coupangEats);
 
-  const orderCount = meta.orderCount ?? (rollups.topPurchases?.length ?? 0);
+  const orderCount = meta.orderCount ?? rollups.topPurchases.length;
   document.getElementById('order-count').textContent =
     orderCount === 0 ? 'No orders yet' : `${orderCount} orders`;
 
@@ -70,14 +227,24 @@ function renderHero(rollups, meta) {
     totals.all > 0 ? `${eatsPct}% of total` : '—';
 }
 
-function renderStatusBanner(meta) {
+function renderStatusBanner(meta, rollups) {
   const banner = document.getElementById('status-banner');
-  if (!meta.coverageNote || meta.coverageNote === 'complete') {
+  const monthsMissing = rollups.monthsMissing ?? meta.monthsMissing ?? [];
+  const hasCoverageNote = meta.coverageNote && meta.coverageNote !== 'complete';
+  const hasMissingMonths = monthsMissing.length > 0;
+
+  if (!hasCoverageNote && !hasMissingMonths) {
     banner.hidden = true;
     return;
   }
+
   banner.hidden = false;
-  document.getElementById('status-text').textContent = meta.coverageNote;
+  const parts = [];
+  if (hasCoverageNote) parts.push(meta.coverageNote);
+  if (hasMissingMonths) {
+    parts.push(`Months missing: ${monthsMissing.join(', ')}.`);
+  }
+  document.getElementById('status-text').textContent = parts.join(' ');
 }
 
 function buildMonthlyLabels(monthly) {
@@ -237,7 +404,7 @@ function renderTopPurchases(rollups) {
 
   if (!purchases.length) {
     tbody.innerHTML =
-      '<tr class="empty-row"><td colspan="4">No purchases loaded — awaiting live Gmail export.</td></tr>';
+      '<tr class="empty-row"><td colspan="5">No purchases loaded — awaiting live Gmail export.</td></tr>';
     return;
   }
 
@@ -251,7 +418,7 @@ function renderTopPurchases(rollups) {
         : '—';
       return `<tr>
         <td>${i + 1}</td>
-        <td>${escapeHtml(p.name ?? p.item ?? 'Unknown')}</td>
+        <td>${escapeHtml(p.name ?? 'Unknown')}</td>
         <td>${date}</td>
         <td class="amount">${formatKRW(p.amount)}</td>
         <td><span class="channel-badge ${channelClass(ch)}">${channelLabel(ch)}</span></td>
@@ -271,17 +438,27 @@ function renderCategories(rollups) {
   }
 
   grid.innerHTML = categories
-    .map((c) => `<div class="category-item">
+    .map((c) => {
+      const countLine = c.count > 0
+        ? `<div class="cat-count">${c.count} orders</div>`
+        : '';
+      return `<div class="category-item">
       <div class="cat-label">${escapeHtml(c.label ?? c.category)}</div>
       <div class="cat-amount">${formatKRW(c.amount)}</div>
-      <div class="cat-count">${c.count ?? 0} orders</div>
-    </div>`)
+      ${countLine}
+    </div>`;
+    })
     .join('');
 }
 
 function renderInsights(rollups) {
   const list = document.getElementById('insights-list');
   const insights = rollups.insights ?? [];
+
+  if (!insights.length) {
+    list.innerHTML = '<li>No insights yet.</li>';
+    return;
+  }
 
   list.innerHTML = insights
     .map((text) => `<li>${escapeHtml(text)}</li>`)
@@ -305,7 +482,7 @@ function escapeHtml(str) {
 async function init() {
   try {
     const { meta, rollups } = await loadData();
-    renderStatusBanner(meta);
+    renderStatusBanner(meta, rollups);
     renderHero(rollups, meta);
     renderMonthlyChart(rollups);
     renderCategoryChart(rollups);
