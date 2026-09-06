@@ -1,9 +1,1733 @@
 {
-  "dataSource": "syopeo-gmail-ingest",
-  "generatedAt": null,
-  "period": {
-    "start": null,
-    "end": null
+  "meta": {
+    "dataSource": "live-gmail",
+    "exportedAt": "2026-09-06T13:08:22.759430Z",
+    "orderCount": 191,
+    "totalKrw": 3087155,
+    "dateMin": "2026-06-10T02:07:41Z",
+    "dateMax": "2026-09-06T05:53:33Z",
+    "coverageNote": "Partial honest export from 277 fetched messages (target 984). Gaps shown; no invented months. Re-publish when fetch completes.",
+    "syopeoTip": "bca22c2"
   },
-  "orders": []
+  "orders": [
+    {
+      "id": "19f79e0a18ef3f53",
+      "purchasedAt": "2026-07-19T10:16:30Z",
+      "amountKrw": 14740,
+      "title": "Moa Bio Farm sweetness selected Moa Farm Shine Muscat gr",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0434d4898f286c",
+      "purchasedAt": "2026-08-27T12:58:51Z",
+      "amountKrw": 12340,
+      "title": "Lotte Zero chocolate chip cookies, 168 g, 3 unit ₩12,340",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f0bc908488c52d",
+      "purchasedAt": "2026-06-28T01:12:30Z",
+      "amountKrw": 38320,
+      "title": "Dr. Honest pharmacy-approved lumbar support belt waist b",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fb62d334ffaa51",
+      "purchasedAt": "2026-07-31T03:17:21Z",
+      "amountKrw": 24700,
+      "title": "(New Zealand) Milkio grass-fed ghee 726g (800ml) can pac",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee42c0c9891845",
+      "purchasedAt": "2026-06-20T08:35:51Z",
+      "amountKrw": 47410,
+      "title": "Babyliss Hydro Smooth Airbrush Volume Curling Iron, AS29",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a014fa64eae0787",
+      "purchasedAt": "2026-08-18T13:05:47Z",
+      "amountKrw": 9230,
+      "title": "Seoul Milk The Rich Pure plain yogurt, 2.45 L, 1 -pack,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fb8cf2ba111b71",
+      "purchasedAt": "2026-07-31T15:33:30Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0102c719142ed7",
+      "purchasedAt": "2026-08-17T14:42:21Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffa98e3bb2c4df",
+      "purchasedAt": "2026-08-13T10:09:09Z",
+      "amountKrw": 7560,
+      "title": "Shin Ramyun Tomba large bowl noodles 113g, 6 unit ₩7,560",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee46bec5840027",
+      "purchasedAt": "2026-06-20T09:45:37Z",
+      "amountKrw": 5980,
+      "title": "아리 모던누들 봉골레, 125g, 4개 ₩5,980 1 ₩5,980 쿠팡(주) 아리 모던누들 고추장버",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff04a8bb5e1810",
+      "purchasedAt": "2026-08-11T10:07:24Z",
+      "amountKrw": 5750,
+      "title": "New Day women’s underwear ultra slim adult diaper, large",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff5bbb2348c1c5",
+      "purchasedAt": "2026-08-12T11:29:05Z",
+      "amountKrw": 15900,
+      "title": "AOUGK 1+1 men’s oversized checkered shirt casual long sl",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ed3e6664e62d79",
+      "purchasedAt": "2026-06-17T04:45:51Z",
+      "amountKrw": 25220,
+      "title": "TAMSA automatic air freshener dispenser with timer, 173",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02427a40aa8c17",
+      "purchasedAt": "2026-08-21T11:49:31Z",
+      "amountKrw": 55800,
+      "title": "두바이향수 중동 향수 아랍 퍼퓸선물세트 오래가는 향수 아랍에미리트 니치향수 고급선물세트 이국적인향기,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eaf491445568ef",
+      "purchasedAt": "2026-06-10T02:07:41Z",
+      "amountKrw": 3900,
+      "title": "Mudun disposable portable toilet seat cover 50 pieces, w",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f418e8d1e3d258",
+      "purchasedAt": "2026-07-08T11:48:07Z",
+      "amountKrw": 12300,
+      "title": "Lotte Zero chocolate chip cookies, 168 g, 3 unit ₩12,300",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "19f3e8ea2720cbd1",
+      "purchasedAt": "2026-07-07T21:49:21Z",
+      "amountKrw": 21890,
+      "title": "Gomgom cheddar cheese slices, 18 g, 100 -pack, 1 unit ₩2",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1878746b16721",
+      "purchasedAt": "2026-06-30T12:19:34Z",
+      "amountKrw": 5030,
+      "title": "Shilla Myunggua low-sugar whole wheat bread with bran go",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fc5da2631f2270",
+      "purchasedAt": "2026-08-03T04:20:11Z",
+      "amountKrw": 180000,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff0de6c3f9d87f",
+      "purchasedAt": "2026-08-11T12:48:55Z",
+      "amountKrw": 5050,
+      "title": "Gomgom black pepper, 100 g, 1 unit ₩5,050 1 ₩5,050 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1bdf2e7ce453e",
+      "purchasedAt": "2026-07-01T04:10:38Z",
+      "amountKrw": 17700,
+      "title": "Ohora natural glow milk syrup nail strengthener Earl Gre",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0341feec6ed6c2",
+      "purchasedAt": "2026-08-24T14:15:01Z",
+      "amountKrw": 55900,
+      "title": "Pascalmorabito Felice Precious Eau de Parfum, 100 ml, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a04344ee92fda81",
+      "purchasedAt": "2026-08-27T12:49:45Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f7f98b4bf6d6d7",
+      "purchasedAt": "2026-07-20T12:55:40Z",
+      "amountKrw": 5800,
+      "title": "Body Natur Sweet almond wax strip for face, 1 unit ₩5,80",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f3ad2911c193d3",
+      "purchasedAt": "2026-07-07T04:25:04Z",
+      "amountKrw": 36810,
+      "title": "Alianza avocado oil, 2 unit, 1 L ₩36,810 1 ₩36,810 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eca9e28dd080d4",
+      "purchasedAt": "2026-06-15T09:30:21Z",
+      "amountKrw": 49130,
+      "title": "Atto Block Heungnyemun L compatible blocks 5240wg, multi",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffaa45aaf6285b",
+      "purchasedAt": "2026-08-13T10:21:36Z",
+      "amountKrw": 5700,
+      "title": "LOTTE WELLFOOD Spearmint gum, 26 g, 6 unit ₩5,700 1 ₩5,7",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fdb3e02924c7aa",
+      "purchasedAt": "2026-08-07T08:01:38Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) Korean cori",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05273586863c1d",
+      "purchasedAt": "2026-08-30T11:34:44Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) 광식이농장 완숙 토마",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f7d7bf17856b99",
+      "purchasedAt": "2026-07-20T03:05:00Z",
+      "amountKrw": 9200,
+      "title": "Super Space Sticker Activity Book, National Geographic K",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f3aa3ac89654a8",
+      "purchasedAt": "2026-07-07T03:33:51Z",
+      "amountKrw": 6430,
+      "title": "Duracell alkaline batteries AAAA, 2 -pack, 4 unit ₩6,430",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a06767030500129",
+      "purchasedAt": "2026-09-03T13:13:17Z",
+      "amountKrw": 19600,
+      "title": "Lillaco table football game mini World Cup stadium, 1 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a021b4b48a4e004",
+      "purchasedAt": "2026-08-21T00:24:45Z",
+      "amountKrw": 6454,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "19fae6883ad0e858",
+      "purchasedAt": "2026-07-29T15:05:10Z",
+      "amountKrw": 36060,
+      "title": "Gomgom cheddar cheese slices, 18 g, 100 -pack, 2 unit ₩3",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f8502ab0e970b9",
+      "purchasedAt": "2026-07-21T14:09:30Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "19fad7a3c301e93c",
+      "purchasedAt": "2026-07-29T10:44:56Z",
+      "amountKrw": 15416,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "19f03ffceb674192",
+      "purchasedAt": "2026-06-26T12:55:21Z",
+      "amountKrw": 21900,
+      "title": "Unisex windbreaker premium ultra-lightweight UV protecti",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a040bdc2dd605d3",
+      "purchasedAt": "2026-08-27T01:02:51Z",
+      "amountKrw": 7890,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "rocket-fresh",
+      "source": "gmail"
+    },
+    {
+      "id": "19ff8e44aa518c33",
+      "purchasedAt": "2026-08-13T02:12:17Z",
+      "amountKrw": 10160,
+      "title": "Mamame Tempe chips hot chili, 3 unit, 50 g ₩10,160 1 ₩10",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f6a53ed554cf14",
+      "purchasedAt": "2026-07-16T09:48:31Z",
+      "amountKrw": 32150,
+      "title": "M.A.C Maximal silky matte lipstick, 1 unit, velvet teddy",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0615383abc22ee",
+      "purchasedAt": "2026-09-02T08:54:17Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f2be7d8ad60c55",
+      "purchasedAt": "2026-07-04T06:54:00Z",
+      "amountKrw": 3040,
+      "title": "Gwangshik Farm ripe tomatoes, 1 kg, 1 pack ₩3,040 1 ₩3,0",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fb6ce26591d215",
+      "purchasedAt": "2026-07-31T06:13:10Z",
+      "amountKrw": 8790,
+      "title": "Penelope swimming pants swim diaper unisex, extra large",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff8da3ee9ca976",
+      "purchasedAt": "2026-08-13T02:01:18Z",
+      "amountKrw": 10900,
+      "title": "Milk Baobab baby and kids sun stick SPF50+ PA++++, 18 g,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f22d116f9bf1aa",
+      "purchasedAt": "2026-07-02T12:32:34Z",
+      "amountKrw": 10900,
+      "title": "Aromatica tea tree purifying shampoo, 400 ml, 1 unit ₩10",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02cf6b8657b93e",
+      "purchasedAt": "2026-08-23T04:52:40Z",
+      "amountKrw": 11900,
+      "title": "Haneum Miga Korean rice white rice, premium grade, 3 kg,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a060faacb82a4d7",
+      "purchasedAt": "2026-09-02T07:17:14Z",
+      "amountKrw": 6200,
+      "title": "Vivid Kitchen low-calorie tomato ketchup, 320 g, 2 unit",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f968cbca5dac2d",
+      "purchasedAt": "2026-07-24T23:53:52Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ec658b34153365",
+      "purchasedAt": "2026-06-14T13:36:00Z",
+      "amountKrw": 13210,
+      "title": "Moguchon antibiotic-free boneless chicken for braised ch",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fdad4323ae6850",
+      "purchasedAt": "2026-08-07T06:06:07Z",
+      "amountKrw": 18950,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "19ff9a6625390023",
+      "purchasedAt": "2026-08-13T05:44:17Z",
+      "amountKrw": 5900,
+      "title": "E.Litz large-capacity transparent cosmetic pouch for tra",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02455e272ed815",
+      "purchasedAt": "2026-08-21T12:40:01Z",
+      "amountKrw": 11260,
+      "title": "Gomgom Gimcheon Shine Muscat grapes, 1 kg, 1 pack ₩11,26",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f8457ab4d62c63",
+      "purchasedAt": "2026-07-21T11:02:44Z",
+      "amountKrw": 7660,
+      "title": "Lotte Zero Queenc sand, 288 g, 2 unit ₩7,660 1 ₩7,660 쿠팡",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f5f11e074f5a7e",
+      "purchasedAt": "2026-07-14T05:20:33Z",
+      "amountKrw": 9580,
+      "title": "Monochi wood deco wall-mounted frame, 2 unit, 20x20cm, s",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f6aad82b502bb6",
+      "purchasedAt": "2026-07-16T11:26:22Z",
+      "amountKrw": 9660,
+      "title": "Mini cucumber, 10 -pack, 2 unit ₩9,660 1 ₩9,660 쿠팡(주) Br",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff8e0fee4a8a8b",
+      "purchasedAt": "2026-08-13T02:08:41Z",
+      "amountKrw": 14900,
+      "title": "What the Farmers gluten-free vegan whole sliced refined",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a03c039614e204e",
+      "purchasedAt": "2026-08-26T03:01:01Z",
+      "amountKrw": 19900,
+      "title": "Boys’ rustling sports jogger pants workout pants 2-piece",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fdec5f5e8477d8",
+      "purchasedAt": "2026-08-08T00:29:02Z",
+      "amountKrw": 8990,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fd849db72815a5",
+      "purchasedAt": "2026-08-06T18:15:45Z",
+      "amountKrw": 8990,
+      "title": "TAMSAA Aqua Sparkling Lemon, 20 unit, 500 ml ₩8,990 3 ₩2",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f318ab774782ff",
+      "purchasedAt": "2026-07-05T09:10:00Z",
+      "amountKrw": 12140,
+      "title": "Seagrams lemon sparkling water label-free, 350 ml, 24 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f4446b4504f54a",
+      "purchasedAt": "2026-07-09T00:28:31Z",
+      "amountKrw": 12900,
+      "title": "Persil Deep Clean Expert Baby Gel liquid detergent for b",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a03e30c8c1abb7f",
+      "purchasedAt": "2026-08-26T13:09:39Z",
+      "amountKrw": 17000,
+      "title": "Sentive carbon steel bicycle number key chain lock sturd",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a00e961d82367c0",
+      "purchasedAt": "2026-08-17T07:18:33Z",
+      "amountKrw": 21058,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "19fd0b1aaccc297a",
+      "purchasedAt": "2026-08-05T06:52:08Z",
+      "amountKrw": 6500,
+      "title": "Foodi Gararam Masala, 120 g, 1 unit ₩6,500 1 ₩6,500 쿠팡(주",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f161488038d00b",
+      "purchasedAt": "2026-06-30T01:11:10Z",
+      "amountKrw": 5200,
+      "title": "Withshyan 60-second dry nail polish, M003 cherry blossom",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f2b23c9a001bc9",
+      "purchasedAt": "2026-07-04T03:19:51Z",
+      "amountKrw": 5890,
+      "title": "Toor dal pigeon pea (toor dal) India 800g / 1 pack, 1 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fce08e0a7b786c",
+      "purchasedAt": "2026-08-04T18:28:34Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a064b4c6512520c",
+      "purchasedAt": "2026-09-03T00:39:23Z",
+      "amountKrw": 25000,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ecdcb635e9f2f9",
+      "purchasedAt": "2026-06-16T00:18:37Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffa976a139ca82",
+      "purchasedAt": "2026-08-13T10:07:33Z",
+      "amountKrw": 7560,
+      "title": "Shin Ramyun Tomba large bowl noodles 113g, 6 unit ₩7,560",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f279064fd03bef",
+      "purchasedAt": "2026-07-03T10:40:00Z",
+      "amountKrw": 6180,
+      "title": "곰곰 무항생제 신선한 대란, 15구, 1개 ₩6,180 1 ₩6,180 쿠팡(주) Gomgom fre",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05680ede7bb99b",
+      "purchasedAt": "2026-08-31T06:28:03Z",
+      "amountKrw": 19800,
+      "title": "NUNUHANA 하이웨스트 심리스 속바지 뱃살 보정 사각 드로즈, 스킨-추천, XL(60-70kg)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff606e046b570a",
+      "purchasedAt": "2026-08-12T12:51:11Z",
+      "amountKrw": 5210,
+      "title": "Gwangshik Farm ripe tomatoes, 1 kg, 1 pack ₩5,210 1 ₩5,2",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fab0f6bfd13d05",
+      "purchasedAt": "2026-07-28T23:29:00Z",
+      "amountKrw": 8500,
+      "title": "FarmersOrigin extra virgin coconut oil, 500 ml, 1 unit ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f75baa1dbad012",
+      "purchasedAt": "2026-07-18T14:56:31Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) 신라명과 아침에 먹기",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f538e9db45645b",
+      "purchasedAt": "2026-07-11T23:41:21Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f633bf8f9587a7",
+      "purchasedAt": "2026-07-15T00:45:00Z",
+      "amountKrw": 51900,
+      "title": "CookBuddy wok for induction and gas stove 5-ply 316 stai",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fec2ffba244b3d",
+      "purchasedAt": "2026-08-10T14:59:53Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) TheBreadBlu",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eef225bb99f190",
+      "purchasedAt": "2026-06-22T11:41:03Z",
+      "amountKrw": 8680,
+      "title": "Ugly but delicious paprika, 1 kg, 1 -pack, 1 unit ₩8,680",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fa38fe18bd1b9e",
+      "purchasedAt": "2026-07-27T12:32:21Z",
+      "amountKrw": 20900,
+      "title": "Costco HOODYS Hoodys cocktail peanuts peanuts 1.58kg mad",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a06f5afedcec306",
+      "purchasedAt": "2026-09-05T02:17:09Z",
+      "amountKrw": 28160,
+      "title": "SooOli extra large beach towel 100% cotton water play st",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1611ad2c09258",
+      "purchasedAt": "2026-06-30T01:08:03Z",
+      "amountKrw": 26000,
+      "title": "Pop Time white cheddar cheese flavor avocado oil popcorn",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19edb634d07862ed",
+      "purchasedAt": "2026-06-18T15:39:37Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fd899274efca85",
+      "purchasedAt": "2026-08-06T19:42:22Z",
+      "amountKrw": 12360,
+      "title": "Lotte Zero chocolate chip cookies 12 pieces, 168 g, 3 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffb0476dab2d5c",
+      "purchasedAt": "2026-08-13T12:06:39Z",
+      "amountKrw": 13150,
+      "title": "Teazen Jeju green tea, 1.2 g, 100 -pack, 1 unit ₩13,150",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee2995d5ac7dff",
+      "purchasedAt": "2026-06-20T01:16:00Z",
+      "amountKrw": 14900,
+      "title": "What the Farmers gluten-free vegan whole sliced refined",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f6955e47cbe9c0",
+      "purchasedAt": "2026-07-16T05:11:03Z",
+      "amountKrw": 6200,
+      "title": "PASSET Celeb nail color nail polish, 93 light magenta, 8",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f016a2b3fc0685",
+      "purchasedAt": "2026-06-26T00:52:41Z",
+      "amountKrw": 5980,
+      "title": "Haitai Confectionery Ace snack, 364 g, 2 unit ₩5,980 1 ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05680e29f32cdf",
+      "purchasedAt": "2026-08-31T06:28:00Z",
+      "amountKrw": 5750,
+      "title": "New Day women’s underwear ultra slim adult diaper, large",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02450967fc0923",
+      "purchasedAt": "2026-08-21T12:34:14Z",
+      "amountKrw": 8900,
+      "title": "Brodkasse Everyday sourdough rye whole wheat bread, 320",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0123da812f122e",
+      "purchasedAt": "2026-08-18T00:20:25Z",
+      "amountKrw": 3250,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee410b9c0c283f",
+      "purchasedAt": "2026-06-20T08:06:00Z",
+      "amountKrw": 34900,
+      "title": "Vidal Sassoon 3 types brush hot air styler, VSAS80PIK, b",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ed4fda3cfed982",
+      "purchasedAt": "2026-06-17T09:50:51Z",
+      "amountKrw": 2400,
+      "title": "Corn Snack sweet and spicy flavor, 67 g, 2 unit ₩2,400 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffb104251b7b45",
+      "purchasedAt": "2026-08-13T12:19:33Z",
+      "amountKrw": 4800,
+      "title": "Pangsmall square plain tin case for photo card photo dec",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff9b63be421fdb",
+      "purchasedAt": "2026-08-13T06:01:36Z",
+      "amountKrw": 11480,
+      "title": "Wedent Fresh toothpaste mint flavor, 50 g, 10 unit ₩11,4",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05752dc9600329",
+      "purchasedAt": "2026-08-31T10:17:21Z",
+      "amountKrw": 13200,
+      "title": "Temole avocado chips tomato salsa flavor, 40 g, 3 unit ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02add0263066c6",
+      "purchasedAt": "2026-08-22T19:05:21Z",
+      "amountKrw": 9900,
+      "title": "Miseen scene Salon 10 protein hair treatment for extreme",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a014363442e420b",
+      "purchasedAt": "2026-08-18T09:31:30Z",
+      "amountKrw": 3980,
+      "title": "Korean caipira lettuce, 200 g, 1 unit ₩3,980 1 ₩3,980 쿠팡",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fda8a49a00a810",
+      "purchasedAt": "2026-08-07T04:45:22Z",
+      "amountKrw": 9810,
+      "title": "베베쥬 스위미 래쉬가드 상하복 세트, 140, 네이비 ₩9,810 1 ₩9,810 쿠팡(주) 베베쥬",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f3b7b033eaa1bf",
+      "purchasedAt": "2026-07-07T07:29:03Z",
+      "amountKrw": 4900,
+      "title": "TOOR DAL TOOR DAL 800g 1 pack (100% pigeon peas), 1 unit",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ecdcef04767a42",
+      "purchasedAt": "2026-06-16T00:22:30Z",
+      "amountKrw": 15900,
+      "title": "Bouquetgarni Eco Clear Laundry Liquid Soap Main Product,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f7f44899f9cd8f",
+      "purchasedAt": "2026-07-20T11:23:44Z",
+      "amountKrw": 7000,
+      "title": "Jeepsaram multi-cube 2-tier divider storage box, 18.5 x",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "19f695928757680f",
+      "purchasedAt": "2026-07-16T05:14:37Z",
+      "amountKrw": 10400,
+      "title": "리벤스 퓨어워터 아기물티슈 엠보싱 캡형, 50g, 100매, 10개 ₩10,400 1 ₩10,400",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f27b3a4fc9fb80",
+      "purchasedAt": "2026-07-03T11:18:31Z",
+      "amountKrw": 7910,
+      "title": "Fruit Jinshim summer strawberry medium fruit, 200 g, 1 u",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ecc0ae1f7925a6",
+      "purchasedAt": "2026-06-15T16:08:44Z",
+      "amountKrw": 6940,
+      "title": "Wiz Office PP color index file A3 315-2, 2 unit, green ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ed3c3d09203cfb",
+      "purchasedAt": "2026-06-17T04:08:04Z",
+      "amountKrw": 4570,
+      "title": "Green beans (frozen), 1 unit, 1 kg ₩4,570 1 ₩4,570 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "1a075477f1ed462a",
+      "purchasedAt": "2026-09-06T05:53:33Z",
+      "amountKrw": 17010,
+      "title": "Comet Home Oeko-Tex certified hotel bath towel 450g 30 t",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a03bc6e6811f225",
+      "purchasedAt": "2026-08-26T01:54:44Z",
+      "amountKrw": 9790,
+      "title": "무항생제 신선한 대란, 30구, 1개 ₩9,790 1 ₩9,790 쿠팡(주) 넛츠그린 무설탕 다크 초",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f8c55f7a1e126e",
+      "purchasedAt": "2026-07-23T00:17:51Z",
+      "amountKrw": 28490,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fd10a5732c5b7e",
+      "purchasedAt": "2026-08-05T08:29:01Z",
+      "amountKrw": 174500,
+      "title": "BMX bike stunt bike for beginners stunt see photo lightw",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fa8c99b0ab9244",
+      "purchasedAt": "2026-07-28T12:53:31Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) TheBreadBlu",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f8f5bbf2a2e07f",
+      "purchasedAt": "2026-07-23T14:23:01Z",
+      "amountKrw": 3470,
+      "title": "광식이농장 완숙 토마토, 1kg, 1팩 ₩3,470 1 ₩3,470 쿠팡(주) Brodkasse Ev",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f44ba39f4157bf",
+      "purchasedAt": "2026-07-09T02:34:41Z",
+      "amountKrw": 13310,
+      "title": "CJ antibiotic-free grade 1 clean eggs, 25 count, 1 unit",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a067289a1961558",
+      "purchasedAt": "2026-09-03T12:05:07Z",
+      "amountKrw": 6200,
+      "title": "PASSET Celeb nail color polish, 49 Twinkle Gold, 7 ml, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f63dc81fce2914",
+      "purchasedAt": "2026-07-15T03:40:21Z",
+      "amountKrw": 5750,
+      "title": "New Day women’s underwear ultra slim adult diaper, large",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fdabc7b8a6728e",
+      "purchasedAt": "2026-08-07T05:40:11Z",
+      "amountKrw": 2900,
+      "title": "World Chana Dals chana dal peeled Egyptian chickpeas, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fc269dcd753bb8",
+      "purchasedAt": "2026-08-02T12:19:04Z",
+      "amountKrw": 9900,
+      "title": "SEOLTANGDAESIN Stevia Erythritol Sugar, 400 g, 2 unit ₩9",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fe40cd3479e352",
+      "purchasedAt": "2026-08-09T01:04:31Z",
+      "amountKrw": 8400,
+      "title": "뷰센 30 치아미백제, 없음, 1개, 80g ₩8,400 1 ₩8,400 쿠팡(주) Payment i",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fce0a4e1855944",
+      "purchasedAt": "2026-08-04T18:30:08Z",
+      "amountKrw": 13210,
+      "title": "Moguchon antibiotic-free boneless chicken for braised ch",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ef988489d5b99e",
+      "purchasedAt": "2026-06-24T12:08:37Z",
+      "amountKrw": 6150,
+      "title": "곰곰 무항생제 신선한 대란, 15구, 1개 ₩6,150 1 ₩6,150 쿠팡(주) Gomgom fre",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0425156e2f084a",
+      "purchasedAt": "2026-08-27T08:23:40Z",
+      "amountKrw": 5450,
+      "title": "Home Star shoe stain removal wipes 36 pieces, 1 unit, 20",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0362407020ed5f",
+      "purchasedAt": "2026-08-24T23:38:44Z",
+      "amountKrw": 77440,
+      "title": "Chloe Nomade EDP, 50 ml, 1 unit ₩77,440 1 ₩77,440 COUPAN",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a01ee227adf77d9",
+      "purchasedAt": "2026-08-20T11:15:31Z",
+      "amountKrw": 3490,
+      "title": "국내산 실파, 200g, 1개 ₩3,490 1 ₩3,490 쿠팡(주) Gomgom fresh grad",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a074177b916a758",
+      "purchasedAt": "2026-09-06T00:21:30Z",
+      "amountKrw": 28590,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fa38d9756715ed",
+      "purchasedAt": "2026-07-27T12:29:51Z",
+      "amountKrw": 7990,
+      "title": "무항생제 신선한 특란, 30구, 1개 ₩7,990 1 ₩7,990 쿠팡(주) 서울우유 더진한 순수 플",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02481756df903d",
+      "purchasedAt": "2026-08-21T13:27:37Z",
+      "amountKrw": 3690,
+      "title": "Eco-friendly young leaf vegetables produced in Korea, 15",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fce2a4ae4fd883",
+      "purchasedAt": "2026-08-04T19:05:04Z",
+      "amountKrw": 9600,
+      "title": "Paysan BRETON Whipped cream, 200 ml, 2 unit ₩9,600 1 ₩9,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1beaa0593c274",
+      "purchasedAt": "2026-07-01T04:23:08Z",
+      "amountKrw": 3410,
+      "title": "Gwangshik Farm ripe tomatoes, 1 kg, 1 pack ₩3,410 1 ₩3,4",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ee47ce9ea491db",
+      "purchasedAt": "2026-06-20T10:04:10Z",
+      "amountKrw": 8700,
+      "title": "Monggeulmonggeul freshest cottage cheese tvorog tvorog 2",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a021cce2342dae2",
+      "purchasedAt": "2026-08-21T00:51:10Z",
+      "amountKrw": 25000,
+      "title": "Coupang order",
+      "channel": "coupang",
+      "deliveryType": "rocket-fresh",
+      "source": "gmail"
+    },
+    {
+      "id": "19f069c6aacf114c",
+      "purchasedAt": "2026-06-27T01:05:40Z",
+      "amountKrw": 7890,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "rocket-fresh",
+      "source": "gmail"
+    },
+    {
+      "id": "1a00d62b721f1fdf",
+      "purchasedAt": "2026-08-17T01:42:47Z",
+      "amountKrw": 14900,
+      "title": "Jayeonpong steam wash liquid dish soap for dishwasher, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f934bfb8ea1954",
+      "purchasedAt": "2026-07-24T08:44:14Z",
+      "amountKrw": 34760,
+      "title": "[Discounted on restock] Saber del Sur avocado oil large",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f41bffde304f1a",
+      "purchasedAt": "2026-07-08T12:42:07Z",
+      "amountKrw": 7980,
+      "title": "Akei Living Dust Shot washing machine cleaner, 1.05 kg,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1d416f43c2dcd",
+      "purchasedAt": "2026-07-01T10:37:34Z",
+      "amountKrw": 13960,
+      "title": "콜게이트 아이씨 쿨민트 치약, 200g, 3개 ₩13,960 1 ₩13,960 쿠팡(주) Paymen",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f2b25cb17d7322",
+      "purchasedAt": "2026-07-04T03:22:03Z",
+      "amountKrw": 5500,
+      "title": "Tiger beans Rajma Chitra, 800 g, 1 unit ₩5,500 1 ₩5,500",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0474b6bcf87b22",
+      "purchasedAt": "2026-08-28T07:35:19Z",
+      "amountKrw": 16417,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "eats",
+      "source": "gmail"
+    },
+    {
+      "id": "1a03bc2935c12cad",
+      "purchasedAt": "2026-08-26T01:50:00Z",
+      "amountKrw": 13380,
+      "title": "KITORA FOOD gluten-free Nahan sweetener original, 500 g,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f6aaa88b993167",
+      "purchasedAt": "2026-07-16T11:23:07Z",
+      "amountKrw": 32150,
+      "title": "M.A.C Maximal silky matte lipstick, 1 unit, velvet teddy",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a06b33a5a37b036",
+      "purchasedAt": "2026-09-04T06:55:40Z",
+      "amountKrw": 5900,
+      "title": "Pokemon Pikachu Thunder kids’ sandals, 190mm, yellow, 19",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffa99f1cf4c0bf",
+      "purchasedAt": "2026-08-13T10:10:03Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) Gwangshik F",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ed44cd595b4ed2",
+      "purchasedAt": "2026-06-17T06:37:44Z",
+      "amountKrw": 4270,
+      "title": "삼립 포켓몬 이상해꽃의 덩굴채찍 솔티카라멜롤, 85g, 3개, 1개입 ₩4,270 1 ₩4,270 쿠",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f60c5f2af03ee9",
+      "purchasedAt": "2026-07-14T13:16:51Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff9bdc33780142",
+      "purchasedAt": "2026-08-13T06:09:49Z",
+      "amountKrw": 9750,
+      "title": "Marvis Aqua Mint toothpaste, 25 ml, 1 unit ₩9,750 1 ₩9,7",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a06f325ccfdee04",
+      "purchasedAt": "2026-09-05T01:32:33Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f31ee0db08c2c6",
+      "purchasedAt": "2026-07-05T10:58:30Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a009d0c6e14b8b2",
+      "purchasedAt": "2026-08-16T09:04:30Z",
+      "amountKrw": 4650,
+      "title": "선우마케팅 페루산 바로 먹는 후숙 아보카도 3입, 1개, 500g ₩4,650 1 ₩4,650 쿠팡(",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f18aebe10000b2",
+      "purchasedAt": "2026-06-30T13:18:51Z",
+      "amountKrw": 4570,
+      "title": "Green beans (frozen), 1 unit, 1 kg ₩4,570 1 ₩4,570 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a071cef1d437d13",
+      "purchasedAt": "2026-09-05T13:43:01Z",
+      "amountKrw": 18590,
+      "title": "Gomgom cheddar cheese slices, 18 g, 100 -pack, 1 unit ₩1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ec11083845c82f",
+      "purchasedAt": "2026-06-13T12:59:03Z",
+      "amountKrw": 2930,
+      "title": "국내산 백오이, 5개입, 1개 ₩2,930 1 ₩2,930 쿠팡(주) Gomgom fresh grad",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0102e6dcd9a832",
+      "purchasedAt": "2026-08-17T14:44:31Z",
+      "amountKrw": 8700,
+      "title": "SAJO Premium yellowfin tuna, 100 g, 4 unit ₩8,700 1 ₩8,7",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ffdae1f1f4c22a",
+      "purchasedAt": "2026-08-14T00:31:13Z",
+      "amountKrw": 10700,
+      "title": "Home Star bleach and detergent herbal citrus, 750 ml, 4",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f46fe0d272ac8b",
+      "purchasedAt": "2026-07-09T13:08:00Z",
+      "amountKrw": 16900,
+      "title": "sweetness selected 11 brix watermelon, over 5kg, 1 unit",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f783a93b9e30c7",
+      "purchasedAt": "2026-07-19T02:35:30Z",
+      "amountKrw": 4870,
+      "title": "슬레진저 슬레진저 남성 솔리드 플라켓 배색 카라 반팔 티셔츠 화이트, 115 ₩4,870 1 ₩4,8",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a00a82da006a743",
+      "purchasedAt": "2026-08-16T12:19:01Z",
+      "amountKrw": 9990,
+      "title": "Heslo thornless children&#x27;s boneless filet (frozen),",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fa119fcb3a60e8",
+      "purchasedAt": "2026-07-27T01:04:21Z",
+      "amountKrw": 7890,
+      "title": "Coupang order",
+      "channel": "eats",
+      "deliveryType": "rocket-fresh",
+      "source": "gmail"
+    },
+    {
+      "id": "1a01817748bbf30d",
+      "purchasedAt": "2026-08-19T03:36:25Z",
+      "amountKrw": 7660,
+      "title": "Lotte Zero Queenc sand, 288 g, 2 unit ₩7,660 1 ₩7,660 쿠팡",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0141f2eff94e86",
+      "purchasedAt": "2026-08-18T09:06:21Z",
+      "amountKrw": 12990,
+      "title": "Hangangsikpum antibiotic-free certified jumbo chicken le",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f79cec613d2077",
+      "purchasedAt": "2026-07-19T09:57:01Z",
+      "amountKrw": 28950,
+      "title": "Gomgom daily cheddar cheese slices, 18 g, 50 -pack, 3 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f789123f1c9213",
+      "purchasedAt": "2026-07-19T04:10:04Z",
+      "amountKrw": 15470,
+      "title": "달바 화이트 트러플 퍼스트 스프레이 세럼, 100ml, 1개 ₩15,470 1 ₩15,470 쿠팡(주",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ff8eccd604abfc",
+      "purchasedAt": "2026-08-13T02:21:35Z",
+      "amountKrw": 8160,
+      "title": "칼라보 멕시칸 과카몰리 스파이시 4개입 (냉동), 228g, 1개 ₩8,160 1 ₩8,160 쿠팡(",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19ed3e7803879609",
+      "purchasedAt": "2026-06-17T04:47:03Z",
+      "amountKrw": 8630,
+      "title": "벡셀 알카라인 AA 건전지, 20개입, 1개 ₩8,630 1 ₩8,630 쿠팡(주) Payment i",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f78bef6a526e2f",
+      "purchasedAt": "2026-07-19T05:00:07Z",
+      "amountKrw": 7900,
+      "title": "Zinahome women’s summer pants wide-leg pants loose-fitti",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a009b5687e5db0b",
+      "purchasedAt": "2026-08-16T08:34:37Z",
+      "amountKrw": 6270,
+      "title": "Gomgom x Nonghyup Aori apple, 1kg (5-6 pieces), 1 pack ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a01d5d834b3e0ed",
+      "purchasedAt": "2026-08-20T04:11:01Z",
+      "amountKrw": 6200,
+      "title": "PASSET Celeb nail polish, 16 classic red, 7 ml, 1 unit ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eea5ac9f27cf67",
+      "purchasedAt": "2026-06-21T13:24:37Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) 서울우유 더진한 순수",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19efeb45fca0e30c",
+      "purchasedAt": "2026-06-25T12:14:51Z",
+      "amountKrw": 6900,
+      "title": "Mannada Philippine banana, 2 kg, 1 unit ₩6,900 1 ₩6,900",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a027d0ad5e9e72e",
+      "purchasedAt": "2026-08-22T04:53:01Z",
+      "amountKrw": 8900,
+      "title": "Huy Fong Sriracha hot chili seasoning, 481 g, 1 unit ₩8,",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19eca7882595580f",
+      "purchasedAt": "2026-06-15T08:49:14Z",
+      "amountKrw": 234800,
+      "title": "Must 1000 drawer chest made in Korea installation servic",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f5662045056cf9",
+      "purchasedAt": "2026-07-12T12:51:30Z",
+      "amountKrw": 14900,
+      "title": "What the Farmers gluten-free vegan whole sliced refined",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fb6244982b75ec",
+      "purchasedAt": "2026-07-31T03:07:37Z",
+      "amountKrw": 2900,
+      "title": "World Chana Dals chana dal peeled Egyptian chickpeas, 1",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f1610ed968e18b",
+      "purchasedAt": "2026-06-30T01:07:14Z",
+      "amountKrw": 3500,
+      "title": "World yellow moong dal mung bean large green gram, 1 uni",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a034036619de293",
+      "purchasedAt": "2026-08-24T13:43:51Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a041d1f1c033c46",
+      "purchasedAt": "2026-08-27T06:04:31Z",
+      "amountKrw": 14750,
+      "title": "Temole curly flower chile lime, 3 unit, 56 g ₩14,750 1 ₩",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a043335f1596afa",
+      "purchasedAt": "2026-08-27T12:30:33Z",
+      "amountKrw": 15600,
+      "title": "JS Living Nana Bongbong steam iron hanger stand, modern",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19edfcf422b45aad",
+      "purchasedAt": "2026-06-19T12:16:00Z",
+      "amountKrw": 18410,
+      "title": "[Hangangsikpum] Hangangsikpum antibiotic-free certified",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f8d618fda77963",
+      "purchasedAt": "2026-07-23T05:10:07Z",
+      "amountKrw": 8820,
+      "title": "별이오키즈 아동용 베이직 카고 반바지, 블랙, 15호(90) ₩8,820 1 ₩8,820 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f7417586f4d4c6",
+      "purchasedAt": "2026-07-18T07:18:33Z",
+      "amountKrw": 28900,
+      "title": "Final Sense men&#x27;s ice silk wide drape jogger pants",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0369145ea5c6d5",
+      "purchasedAt": "2026-08-25T01:38:03Z",
+      "amountKrw": 8480,
+      "title": "Basil grown in Korea, 1 unit, 100 g ₩8,480 1 ₩8,480 쿠팡(주",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a04ed68eb6858fb",
+      "purchasedAt": "2026-08-29T18:44:37Z",
+      "amountKrw": 36280,
+      "title": "Shower 145W 30000mAh PPS ultra-fast portable charger, SH",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fa39162b7b77ed",
+      "purchasedAt": "2026-07-27T12:34:00Z",
+      "amountKrw": 16420,
+      "title": "다맘 볶음 캐슈넛, 1kg, 1개 ₩16,420 1 ₩16,420 쿠팡(주) Payment infor",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f03a89989a4825",
+      "purchasedAt": "2026-06-26T11:20:07Z",
+      "amountKrw": 9560,
+      "title": "곰곰 신선한 1A 우유, 2.3L, 2개 ₩9,560 1 ₩9,560 쿠팡(주) Zespri SunG",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "19fc61db84678b92",
+      "purchasedAt": "2026-08-03T05:33:52Z",
+      "amountKrw": 4540,
+      "title": "Green beans (frozen), 1 unit, 1 kg ₩4,540 1 ₩4,540 쿠팡(주)",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "19f16130f7645849",
+      "purchasedAt": "2026-06-30T01:09:34Z",
+      "amountKrw": 10800,
+      "title": "Fresh curry leaves, 100g x 1, 100 g, 1 unit ₩10,800 2 ₩2",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f14553e5b91c0d",
+      "purchasedAt": "2026-06-29T17:02:37Z",
+      "amountKrw": 9560,
+      "title": "Gomgom fresh grade 1A milk, 2.3 L, 2 unit ₩9,560 1 ₩9,56",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19fc29f78881ced9",
+      "purchasedAt": "2026-08-02T13:17:37Z",
+      "amountKrw": 23900,
+      "title": "Delicious healthy What the Farmers original oven-baked s",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a0702d18aeeb04b",
+      "purchasedAt": "2026-09-05T06:06:37Z",
+      "amountKrw": 12800,
+      "title": "Sweetness selected Shine Muscat, 2kg (2-4 bunches), 1 bo",
+      "channel": "coupang",
+      "deliveryType": "box",
+      "source": "gmail"
+    },
+    {
+      "id": "19fd895ad1f0b976",
+      "purchasedAt": "2026-08-06T19:38:34Z",
+      "amountKrw": 4650,
+      "title": "선우 페루산 바로 먹는 후숙 아보카도 2~4입, 1개, 500g ₩4,650 1 ₩4,650 쿠팡(주",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a05fed27c843723",
+      "purchasedAt": "2026-09-02T02:22:51Z",
+      "amountKrw": 19600,
+      "title": "Lillaco table football game mini World Cup stadium, 1 un",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "19f93201e018d31c",
+      "purchasedAt": "2026-07-24T07:56:22Z",
+      "amountKrw": 7900,
+      "title": "Fit Ogym women’s regular/fleece-lined single pleat wide",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    },
+    {
+      "id": "1a02ad3dba647c30",
+      "purchasedAt": "2026-08-22T18:55:21Z",
+      "amountKrw": 16900,
+      "title": "Miseen Scene Salon 10 no-wash ampoule treatment for extr",
+      "channel": "coupang",
+      "deliveryType": null,
+      "source": "gmail"
+    }
+  ]
 }
