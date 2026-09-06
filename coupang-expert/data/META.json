@@ -1,0 +1,18 @@
+{
+  "dataSource": "syopeo-gmail-ingest",
+  "owner": "Girish",
+  "dashboard": "coupang-expert",
+  "coverageNote": "awaiting live export",
+  "periodMonths": 12,
+  "channels": ["coupang", "coupang-eats"],
+  "generatedAt": null,
+  "orderCount": 0,
+  "currency": "KRW",
+  "locale": "en",
+  "readOnly": true,
+  "agentEndpoints": {
+    "orders": "data/orders-12mo.json",
+    "rollups": "data/rollups-12mo.json",
+    "meta": "data/META.json"
+  }
+}

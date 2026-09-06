@@ -39,6 +39,15 @@ async function build() {
     if (e && e.code !== 'ENOENT') throw e;
   }
 
+  // Coupang Expert dashboard (static site + agent-fetchable JSON).
+  const coupangSrc = join(root, 'coupang-expert');
+  try {
+    await cp(coupangSrc, join(docsDir, 'coupang-expert'), { recursive: true });
+    console.log('Copied coupang-expert/ → docs/coupang-expert/');
+  } catch (e) {
+    if (e && e.code !== 'ENOENT') throw e;
+  }
+
   for (const brief of briefs) {
     const html = renderBriefingPage(brief, '../');
     await writeFile(join(docsDir, 'briefs', `${brief.id}.html`), html, 'utf8');
