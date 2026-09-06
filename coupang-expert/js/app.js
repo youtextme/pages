@@ -29,14 +29,140 @@ function formatKRW(amount) {
 }
 
 function channelLabel(channel) {
-  if (channel === 'coupang-eats' || channel === 'coupangEats') return 'Coupang Eats';
+  if (channel === 'coupang-eats' || channel === 'coupangEats' || channel === 'eats') {
+    return 'Coupang Eats';
+  }
   if (channel === 'coupang') return 'Coupang';
   return channel;
 }
 
 function channelClass(channel) {
-  if (channel === 'coupang-eats' || channel === 'coupangEats') return 'eats';
+  if (channel === 'coupang-eats' || channel === 'coupangEats' || channel === 'eats') {
+    return 'eats';
+  }
   return 'coupang';
+}
+
+/**
+ * Normalize honest LIVE schema (byMonth/top50/byChannel/meta)
+ * and Ship UI schema (monthly/topPurchases/totals) into one view model.
+ * Does not invent spend — missing months stay zero.
+ */
+function normalizeRollups(meta, rollups, ordersPayload) {
+  const r = rollups ?? {};
+  const metaObj = meta ?? r.meta ?? {};
+  const orders = Array.isArray(ordersPayload)
+    ? ordersPayload
+    : (ordersPayload?.orders ?? []);
+
+  // --- byChannel ---
+  let byChannelArr = [];
+  if (Array.isArray(r.byChannel) && r.byChannel.length) {
+    byChannelArr = r.byChannel.map((c) => ({
+      channel: c.channel ?? (c.label === 'Coupang Eats' ? 'coupang-eats' : 'coupang'),
+      label: c.label ?? channelLabel(c.channel),
+      amount: c.amount ?? c.krw ?? 0,
+      count: c.count ?? 0,
+    }));
+  } else if (r.byChannel && typeof r.byChannel === 'object') {
+    const bc = r.byChannel;
+    byChannelArr = [
+      {
+        channel: 'coupang',
+        label: 'Coupang',
+        amount: bc.coupang?.krw ?? bc.coupang?.amount ?? 0,
+        count: bc.coupang?.count ?? 0,
+      },
+      {
+        channel: 'coupang-eats',
+        label: 'Coupang Eats',
+        amount: bc.eats?.krw ?? bc.coupangEats?.krw ?? bc.eats?.amount ?? 0,
+        count: bc.eats?.count ?? bc.coupangEats?.count ?? 0,
+      },
+    ];
+  }
+
+  // --- totals ---
+  let totals = r.totals ? { ...r.totals } : null;
+  if (!totals) {
+    const coupang = byChannelArr.find((c) => channelClass(c.channel) === 'coupang')?.amount ?? 0;
+    const eats = byChannelArr.find((c) => channelClass(c.channel) === 'eats')?.amount ?? 0;
+    const all = metaObj.totalKrw ?? (coupang + eats);
+    totals = { all, coupang, coupangEats: eats };
+  }
+
+  // --- monthly / byMonth ---
+  let monthly = Array.isArray(r.monthly) ? r.monthly.slice() : [];
+  if (!monthly.length && r.byMonth && typeof r.byMonth === 'object') {
+    monthly = Object.keys(r.byMonth)
+      .sort()
+      .map((month) => {
+        const row = r.byMonth[month] || {};
+        return {
+          month,
+          coupang: row.coupang ?? 0,
+          coupangEats: row.eats ?? row.coupangEats ?? 0,
+          all: (row.coupang ?? 0) + (row.eats ?? row.coupangEats ?? 0),
+          counts: { coupang: row.count ?? 0, coupangEats: 0 },
+        };
+      });
+  }
+
+  // --- top50 / topPurchases ---
+  let topPurchases = Array.isArray(r.topPurchases) ? r.topPurchases.slice() : [];
+  if (!topPurchases.length && Array.isArray(r.top50)) {
+    topPurchases = r.top50.map((p) => ({
+      name: p.title ?? p.name ?? p.item ?? 'Unknown',
+      date: p.purchasedAt ?? p.date ?? null,
+      amount: p.amountKrw ?? p.amount ?? 0,
+      channel: p.channel === 'eats' ? 'coupang-eats' : (p.channel ?? 'coupang'),
+    }));
+  }
+  if (!topPurchases.length && orders.length) {
+    topPurchases = orders
+      .slice()
+      .sort((a, b) => (b.amountKrw ?? b.amount ?? 0) - (a.amountKrw ?? a.amount ?? 0))
+      .slice(0, 50)
+      .map((p) => ({
+        name: p.title ?? p.name ?? 'Unknown',
+        date: p.purchasedAt ?? p.date ?? null,
+        amount: p.amountKrw ?? p.amount ?? 0,
+        channel: p.channel === 'eats' ? 'coupang-eats' : (p.channel ?? 'coupang'),
+      }));
+  }
+
+  // --- byCategory ---
+  let byCategory = Array.isArray(r.byCategory) ? r.byCategory.slice() : [];
+  byCategory = byCategory.map((c) => ({
+    label: c.label ?? c.category ?? 'Other',
+    amount: c.amount ?? c.krw ?? 0,
+    count: c.count ?? 0,
+  }));
+
+  // --- insights ---
+  let insights = Array.isArray(r.insights) ? r.insights.slice() : [];
+  if (!insights.length) {
+    const missing = metaObj.monthsMissing ?? r.monthsMissing ?? [];
+    const present = metaObj.monthsPresent ?? [];
+    if (metaObj.dateMin && metaObj.dateMax) {
+      insights.push(`Dated window ${metaObj.dateMin} → ${metaObj.dateMax} (honest LIVE).`);
+    }
+    if (present.length) insights.push(`Months with spend: ${present.join(', ')}.`);
+    if (missing.length) {
+      insights.push(`${missing.length} months missing — gaps shown, not invented: ${missing.join(', ')}.`);
+    }
+    if (metaObj.orderCount != null) insights.push(`${metaObj.orderCount} orders in export.`);
+  }
+
+  return {
+    meta: metaObj,
+    totals,
+    monthly,
+    byChannel: byChannelArr,
+    topPurchases,
+    byCategory,
+    insights,
+  };
 }
 
 async function loadData() {
@@ -45,7 +171,8 @@ async function loadData() {
     fetch('data/orders-12mo.json').then((r) => r.json()),
     fetch('data/rollups-12mo.json').then((r) => r.json()),
   ]);
-  return { meta, orders, rollups };
+  const view = normalizeRollups(meta, rollups, orders);
+  return { meta: view.meta, orders, rollups: view };
 }
 
 function renderHero(rollups, meta) {
@@ -237,7 +364,7 @@ function renderTopPurchases(rollups) {
 
   if (!purchases.length) {
     tbody.innerHTML =
-      '<tr class="empty-row"><td colspan="4">No purchases loaded — awaiting live Gmail export.</td></tr>';
+      '<tr class="empty-row"><td colspan="5">No purchases loaded — awaiting live Gmail export.</td></tr>';
     return;
   }
 
@@ -289,8 +416,9 @@ function renderInsights(rollups) {
 }
 
 function renderFooter(meta) {
-  const generated = meta.generatedAt
-    ? new Date(meta.generatedAt).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })
+  const stamp = meta.generatedAt || meta.exportedAt;
+  const generated = stamp
+    ? new Date(stamp).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })
     : 'not yet generated';
   document.getElementById('footer-generated').textContent = `Data as of: ${generated}`;
   document.getElementById('footer-source').textContent = `Source: ${meta.dataSource ?? 'unknown'}`;
