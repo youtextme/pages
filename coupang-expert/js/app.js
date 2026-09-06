@@ -110,6 +110,14 @@ function normalizeRollups(meta, rollups, ordersPayload) {
 
   // --- top50 / topPurchases ---
   let topPurchases = Array.isArray(r.topPurchases) ? r.topPurchases.slice() : [];
+  // Normalize existing topPurchases (LIVE export uses amountKrw/label/purchasedAt)
+  topPurchases = topPurchases.map((p) => ({
+    ...p,
+    name: p.name ?? p.label ?? p.title ?? p.item ?? 'Unknown',
+    date: p.date ?? p.purchasedAt ?? null,
+    amount: p.amount ?? p.amountKrw ?? 0,
+    channel: p.channel === 'eats' ? 'coupang-eats' : (p.channel ?? 'coupang'),
+  }));
   if (!topPurchases.length && Array.isArray(r.top50)) {
     topPurchases = r.top50.map((p) => ({
       name: p.title ?? p.name ?? p.item ?? 'Unknown',
