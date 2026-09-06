@@ -1,0 +1,25 @@
+{
+  "dataSource": "syopeo-gmail-ingest",
+  "generatedAt": null,
+  "period": {
+    "start": null,
+    "end": null
+  },
+  "totals": {
+    "all": 0,
+    "coupang": 0,
+    "coupangEats": 0
+  },
+  "monthly": [],
+  "byCategory": [],
+  "byChannel": [
+    { "channel": "coupang", "label": "Coupang", "amount": 0, "count": 0 },
+    { "channel": "coupang-eats", "label": "Coupang Eats", "amount": 0, "count": 0 }
+  ],
+  "topPurchases": [],
+  "insights": [
+    "No purchase data loaded yet — awaiting live Gmail export from Syopeo ingest.",
+    "Once data arrives, this dashboard will show 12-month spend trends, category mix, and top purchases.",
+    "All figures are read-only analytics derived from Gmail transaction emails."
+  ]
+}

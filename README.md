@@ -9,6 +9,7 @@ Public, checkable research snapshots — not a blog, not an agent dashboard.
 | Brief | URL |
 |-------|-----|
 | Homepage | https://youtextme.github.io/pages/ |
+| Coupang Expert (Girish spend dashboard) | https://youtextme.github.io/pages/coupang-expert/ |
 | Coupang discounts | https://youtextme.github.io/pages/briefs/coupang-discounts.html |
 | Korea Instagram × India | https://youtextme.github.io/pages/briefs/korea-instagram-india.html |
 | Einstein relativity | https://youtextme.github.io/pages/briefs/einstein-relativity.html |
